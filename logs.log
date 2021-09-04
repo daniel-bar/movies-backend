@@ -1,0 +1,302 @@
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T18:17:06.671Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T19:41:15.373Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T19:48:40.723Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T19:49:15.648Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T19:50:17.191Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T19:53:52.177Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T19:54:08.123Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T19:56:03.931Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T20:04:01.327Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T20:04:05.542Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T20:07:20.151Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T20:09:23.497Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T20:09:47.341Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T20:14:28.828Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T20:14:42.827Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T20:18:59.758Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T20:20:40.809Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T20:52:25.204Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T20:52:47.938Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T20:55:08.561Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T20:55:14.629Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T20:55:44.509Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T20:55:51.619Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T20:55:55.240Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T20:56:08.859Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T20:57:09.094Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T20:57:32.954Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T23:15:03.586Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T23:15:33.240Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T23:16:45.097Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T23:16:55.665Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T23:17:23.980Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T23:18:04.601Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T23:18:21.652Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T23:22:50.541Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T23:31:22.982Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-01T23:32:00.978Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-02T05:20:27.944Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-02T05:32:20.385Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-02T05:33:20.702Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-02T05:34:11.944Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-02T05:36:33.504Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-02T05:37:02.540Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-02T05:37:25.803Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-02T05:37:31.546Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-02T05:37:48.645Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-02T05:38:25.520Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-02T05:38:47.716Z"}
+{"message":"Error on sync: Error [ERR_SERVER_ALREADY_LISTEN]: Listen method has been called more than once without closing.","level":"info","timestamp":"2021-09-02T05:38:47.868Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-02T05:39:19.548Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-02T05:39:25.695Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-02T05:40:55.140Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-02T05:41:40.245Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-02T05:41:55.065Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:32:25.406Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:39:46.649Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:40:40.417Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:40:56.513Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:41:12.940Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:42:11.382Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:42:18.087Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:42:44.202Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:42:54.898Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:43:02.207Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:46:26.274Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:46:33.517Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:47:06.675Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:47:18.065Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:47:45.742Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:48:02.900Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:48:15.241Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:49:02.849Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:49:29.252Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:49:43.561Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:50:03.437Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:50:48.438Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:51:01.095Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:51:44.327Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:51:52.458Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:52:09.643Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:52:27.016Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:52:40.557Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:52:58.635Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:53:15.193Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:53:23.322Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:53:26.730Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:53:40.857Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:53:47.957Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:54:35.455Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T11:54:53.585Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:06:19.865Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:06:33.339Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:07:05.652Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:08:05.516Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:12:43.470Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:13:58.557Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:14:18.291Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:14:50.663Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:17:03.228Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:17:28.588Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:17:58.688Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:19:44.037Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:20:16.515Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:20:31.174Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:21:22.944Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:21:48.038Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:23:45.155Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:24:26.396Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:26:39.031Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:26:56.943Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:27:09.988Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:27:26.200Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:28:38.733Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:33:33.960Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:36:19.679Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:41:11.680Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:42:42.341Z"}
+{"message":"MongoDB database connection done successfully","level":"info","timestamp":"2021-09-03T12:42:42.762Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T12:43:05.633Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T12:43:06.139Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T16:18:46.340Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T16:18:46.643Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T16:19:24.199Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T16:19:24.548Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T16:20:16.669Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T16:20:16.983Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T16:20:22.948Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T16:20:23.296Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T16:20:37.634Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T16:20:37.943Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T16:21:00.840Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T16:21:01.175Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T16:21:22.424Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T16:21:22.747Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T16:22:02.843Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T16:22:03.159Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T16:22:15.848Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T16:22:16.191Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T16:25:46.172Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T16:25:46.508Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T16:27:23.244Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T16:27:23.569Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T16:59:16.017Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T16:59:16.415Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T16:59:48.219Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T16:59:48.615Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T17:00:00.126Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T17:00:00.565Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T17:00:38.111Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T17:00:38.639Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T17:01:12.250Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T17:01:12.692Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T17:02:42.786Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T17:02:43.229Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T17:03:37.068Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T17:03:37.467Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T18:58:52.568Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T18:58:53.082Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T18:59:38.248Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T18:59:38.703Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T19:11:29.681Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T19:11:30.054Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T19:14:01.588Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T19:14:01.991Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T19:14:24.831Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T19:14:25.289Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T19:15:05.419Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T19:15:05.826Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T19:17:00.120Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T19:17:00.635Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T19:17:48.323Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T19:17:48.755Z"}
+{"message":"Got a request for /register but missed the body keys: fullname (string)","level":"error","timestamp":"2021-09-03T19:20:11.908Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T19:20:38.958Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T19:20:39.369Z"}
+{"message":"<register>: Start processing request with email: sdww@ss.com","level":"info","timestamp":"2021-09-03T19:20:41.004Z"}
+{"message":"<register>: Failed to register because of server error: TypeError: Cannot convert undefined or null to object","level":"error","timestamp":"2021-09-03T19:20:41.011Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T19:21:54.984Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T19:21:55.353Z"}
+{"message":"<register>: Start processing request with email: sdww@ss.com","level":"info","timestamp":"2021-09-03T19:21:57.540Z"}
+{"message":"<register>: Failed to register because of server error: TypeError: Cannot convert undefined or null to object","level":"error","timestamp":"2021-09-03T19:21:57.551Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T19:24:49.214Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T19:24:49.675Z"}
+{"message":"<register>: Start processing request with email: sdww@ss.com","level":"info","timestamp":"2021-09-03T19:24:53.567Z"}
+{"message":"<register>: Failed to register because of server error: TypeError: Cannot convert undefined or null to object","level":"error","timestamp":"2021-09-03T19:24:53.577Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T19:25:34.564Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T19:25:34.974Z"}
+{"message":"<register>: Start processing request with email: sdww@ss.com","level":"info","timestamp":"2021-09-03T19:25:39.193Z"}
+{"message":"<register>: Failed to register because of server error: TypeError: Cannot convert undefined or null to object","level":"error","timestamp":"2021-09-03T19:25:39.206Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T19:25:57.258Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T19:25:57.641Z"}
+{"message":"<register>: Start processing request with email: sdww@ss.com","level":"info","timestamp":"2021-09-03T19:26:05.840Z"}
+{"message":"<register>: Failed to register because of server error: TypeError: Cannot convert undefined or null to object","level":"error","timestamp":"2021-09-03T19:26:05.855Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T19:26:42.676Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T19:26:43.068Z"}
+{"message":"<register>: Start processing request with email: sdww@ss.com","level":"info","timestamp":"2021-09-03T19:26:45.594Z"}
+{"message":"<register>: Failed to register because of server error: TypeError: Cannot convert undefined or null to object","level":"error","timestamp":"2021-09-03T19:26:45.608Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T19:27:12.537Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T19:27:12.942Z"}
+{"message":"<register>: Start processing request with email: sdww@ss.com","level":"info","timestamp":"2021-09-03T19:27:17.948Z"}
+{"message":"<register>: Failed to register because of server error: TypeError: Cannot convert undefined or null to object","level":"error","timestamp":"2021-09-03T19:27:17.960Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T19:27:39.776Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T19:27:40.194Z"}
+{"message":"<register>: Start processing request with email: sdww@ss.com","level":"info","timestamp":"2021-09-03T19:27:42.234Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T19:33:53.424Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T19:33:53.883Z"}
+{"message":"<register>: Start processing request with email: sdww@ss.com","level":"info","timestamp":"2021-09-03T19:33:58.036Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T19:36:10.040Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T19:36:10.467Z"}
+{"message":"<register>: Start processing request with email: sdww@ss.com","level":"info","timestamp":"2021-09-03T19:36:12.473Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T19:36:42.513Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T19:36:42.946Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T19:36:50.546Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T19:36:50.963Z"}
+{"message":"<register>: Start processing request with email: sdww@ss.com","level":"info","timestamp":"2021-09-03T19:36:52.687Z"}
+{"message":"<register>: Failed to register because of server error: TypeError: Cannot convert undefined or null to object","level":"error","timestamp":"2021-09-03T19:36:52.696Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-03T19:37:56.216Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-03T19:37:56.646Z"}
+{"message":"<register>: Start processing request with email: sdww@ss.com","level":"info","timestamp":"2021-09-03T19:37:59.786Z"}
+{"message":"<register>: Failed to register because of server error: TypeError: Cannot convert undefined or null to object","level":"error","timestamp":"2021-09-03T19:37:59.792Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T13:03:06.422Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T13:03:06.849Z"}
+{"message":"<register>: Start processing request with email: sdww@ss.com","level":"info","timestamp":"2021-09-04T13:03:08.605Z"}
+{"message":"<register>: Failed to register because of server error: TypeError: Cannot convert undefined or null to object","level":"error","timestamp":"2021-09-04T13:03:08.610Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T13:03:31.373Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T13:03:31.764Z"}
+{"message":"<register>: Start processing request with email: sdww@ss.com","level":"info","timestamp":"2021-09-04T13:03:33.627Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T13:03:54.429Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T13:03:54.882Z"}
+{"message":"<register>: Start processing request with email: sdww@ss.com","level":"info","timestamp":"2021-09-04T13:03:56.714Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T13:04:07.700Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T13:04:08.165Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T13:14:16.529Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T13:14:16.907Z"}
+{"message":"<register>: Start processing request with email: sdww@ss.com","level":"info","timestamp":"2021-09-04T13:14:22.805Z"}
+{"message":"<register>: Failed to register because of server error: TypeError: Cannot read property 'id' of undefined","level":"error","timestamp":"2021-09-04T13:14:22.926Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T13:15:24.615Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T13:15:25.105Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T13:17:44.053Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T13:17:44.529Z"}
+{"message":"<register>: Start processing request with email: sdww@ss.com","level":"info","timestamp":"2021-09-04T13:17:47.370Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T13:20:43.567Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T13:20:44.125Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T13:20:51.357Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T13:20:51.750Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T13:38:16.275Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T13:38:16.744Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T13:38:24.062Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T13:38:24.475Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T13:38:46.263Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T13:38:46.679Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T13:50:11.688Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T13:50:12.114Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T13:50:32.181Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T13:50:32.593Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T17:02:00.513Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T17:02:01.003Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T18:57:45.007Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T18:57:45.369Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T21:42:03.426Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T21:42:03.785Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T21:43:12.953Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T21:43:13.348Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T21:45:00.900Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T21:45:01.402Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T21:45:43.083Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T21:45:43.560Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T21:45:53.664Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T21:45:54.203Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T21:48:18.979Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T21:48:25.127Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T21:48:25.533Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T21:52:37.506Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T21:52:38.065Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T21:53:56.385Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T21:53:56.856Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T21:54:54.948Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T21:54:55.510Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T21:55:05.419Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T21:55:06.045Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T21:55:51.665Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T21:55:52.213Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T21:56:27.986Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T21:56:28.582Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T21:59:01.971Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T21:59:02.573Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T22:09:49.311Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T22:09:49.946Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T22:10:01.206Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T22:10:01.908Z"}
+{"message":"<register>: Start processing request with email: sdww@ss.com","level":"info","timestamp":"2021-09-04T22:10:04.374Z"}
+{"message":"<register>: Successfully registered user with email: sdww@ss.com","level":"info","timestamp":"2021-09-04T22:10:04.513Z"}
+{"message":"<register>: Start processing request with email: sdww@ss.com","level":"info","timestamp":"2021-09-04T22:10:22.122Z"}
+{"message":"<register>: Successfully registered user with email: sdww@ss.com","level":"info","timestamp":"2021-09-04T22:10:22.197Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T22:13:26.058Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T22:13:26.607Z"}
+{"message":"<register>: Start processing request with email: sdww@ss.com","level":"info","timestamp":"2021-09-04T22:13:37.822Z"}
+{"message":"<register>: Successfully registered user with email: sdww@ss.com","level":"info","timestamp":"2021-09-04T22:13:37.889Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T22:14:18.186Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T22:14:18.766Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T22:14:37.505Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T22:14:38.101Z"}
