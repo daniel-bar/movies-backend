@@ -1,10 +1,15 @@
-import { BuildOptions, DataTypes, Model, Sequelize } from "sequelize";
+import { 
+  BuildOptions, 
+  DataTypes, 
+  Model, 
+  Optional, 
+  Sequelize,
+} from "sequelize";
 
 import { IDBMoviesAttributes } from "./shared/db-table";
 
-interface MovieModel extends Model<IDBMoviesAttributes>, IDBMoviesAttributes {}
 
-class Movie extends Model<MovieModel, IDBMoviesAttributes> {}
+interface MovieModel extends Model<Optional<IDBMoviesAttributes, 'id' | 'updatedAt' | 'createdAt'>>, IDBMoviesAttributes { }
 
 type MovieStatic = typeof Model & {
   new (values?: object, options?: BuildOptions): MovieModel;
@@ -20,15 +25,22 @@ const MovieFactory = (sequelize: Sequelize): MovieStatic => {
       allowNull: false,
     },
     title: {
-      type: DataTypes.STRING(26),
+      type: DataTypes.STRING,
       allowNull: false,
+      validate: {
+        len: [3, 26],
+      },
     },
     description: {
-      type: DataTypes.STRING(280),
+      type: DataTypes.STRING,
       allowNull: false,
+      validate: {
+        len: [3, 280],
+      },
     },
     category: {
-      type: DataTypes.STRING(26),
+      type: DataTypes.ENUM,
+      values: ['1', '2', '3', '4', '5', '6', '7', '8', '9'],
       allowNull: false,
     },
     release_date: {
@@ -44,17 +56,17 @@ const MovieFactory = (sequelize: Sequelize): MovieStatic => {
       allowNull: false,
     },
     image_path: {
-      type: DataTypes.STRING(2083),
+      type: DataTypes.STRING,
       allowNull: false,
     },
-    video_length: {
-      type: DataTypes.STRING(2083),
+    video_path: {
+      type: DataTypes.STRING,
       allowNull: false,
     },
   });
 }
 
-export {
-  Movie,
+export { 
   MovieFactory,
+  MovieModel,
 }

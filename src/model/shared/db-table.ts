@@ -1,3 +1,6 @@
+import { MovieCategory } from '../../server-global';
+
+
 interface IDBAttribute {
     readonly id: number;
     readonly createdAt: Date;
@@ -7,7 +10,7 @@ interface IDBAttribute {
 interface IDBMoviesAttributes extends IDBAttribute {
     readonly title: string;
     readonly description: string;
-    readonly category: string;
+    readonly category: MovieCategory;
     readonly release_date: number;
     readonly movie_hour_length: number;
     readonly movie_minute_length: number;
@@ -16,9 +19,9 @@ interface IDBMoviesAttributes extends IDBAttribute {
 }
 
 interface IDBUserAttributes extends IDBAttribute {
-    readonly email: string;
+    email: string;
     readonly username: string;
-    readonly password: string;
+    password: string;
 }
 
 interface IDBFavoriteMoviesAttributes extends IDBAttribute {
@@ -37,4 +40,4 @@ export {
     IDBUserAttributes,
     IDBFavoriteMoviesAttributes,
     IDBTokenAttributes,
-};
+}

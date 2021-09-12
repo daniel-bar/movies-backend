@@ -65,7 +65,7 @@ server.listen(port);
 FavoriteMovies.belongsTo(User, { constraints: true, onDelete: 'CASCADE' });
 Token.belongsTo(User, { constraints: true, onDelete: 'CASCADE' });
 
-dbConfig.sync({ force: true })
+dbConfig.sync()
     .then(() => {
         ServerGlobal.getInstance().logger.info('MySQL database connection done successfully');
     })

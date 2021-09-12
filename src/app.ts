@@ -1,11 +1,16 @@
 import express from 'express';
+import path from 'path';
 
 import authRouter from './router/auth';
+import movieRouter from './router/movie';
+import contactRouter from './router/contact';
 
 const app: express.Application = express();
 
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }))
+app.use(express.urlencoded({ extended: true }));
+app.use('/images', express.static(path.join(__dirname, '../../movies-backend/data/images')));
+// app.use('/videos', express.static(path.join(__dirname, '../../movies-backend/videos')));
 
 app.use((req: express.Request, res: express.Response, next: express.NextFunction) => {
     res.setHeader('Access-Control-Allow-Origin', process.env.HTTP_ACCESS_IP);
@@ -30,5 +35,7 @@ app.get(
 );
 
 app.use('/auth', authRouter);
+app.use('/movie', movieRouter);
+app.use('/contact', contactRouter);
 
 export default app;

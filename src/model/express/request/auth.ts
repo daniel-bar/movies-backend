@@ -1,5 +1,11 @@
 import express from 'express';
 
+interface IAuthMiddlewareRequest extends express.Request {
+    userId?: string;
+}
+
+interface IAdminAuthMiddlewareRequest extends express.Request { }
+
 interface IAuthenticatedRequest extends express.Request {
     readonly userId?: string;
 }
@@ -21,9 +27,20 @@ interface ILoginRequest extends express.Request {
 
 interface IAutoLoginRequest extends express.Request { }
 
+interface IEditProfileRequest extends IAuthenticatedRequest {
+  readonly body: Readonly<{
+    password: string;
+    newEmail?: string;
+    newPassword?: string;
+  }>;
+}
+
 export {
+    IAuthMiddlewareRequest,
+    IAdminAuthMiddlewareRequest,
     IAuthenticatedRequest,
     IRegisterRequest,
     ILoginRequest,
     IAutoLoginRequest,
+    IEditProfileRequest,
 }

@@ -11,6 +11,8 @@ declare global {
             readonly MYSQL_PWD: string;
             readonly MYSQL_DB_NAME: string;
             readonly JWT_PWD: string;
+            readonly ADMIN_EMAIL: string;
+            readonly ADMIN_EMAIL_PASSWORD: string;
         }
     }
 }

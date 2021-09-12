@@ -1,11 +1,14 @@
 import express from 'express';
 
+import { auth } from '../middleware/auth';
+
 import { bodyKeys } from '../middleware/security';
 
 import {
     register,
-    // login,
-    // autoLogin,
+    login,
+    autoLogin,
+    editProfile,
 } from '../controller/auth';
 
 const router = express.Router();
@@ -20,18 +23,25 @@ router.post(
     register,
 );
 
-// router.post(
-//     '/login',
-//     bodyKeys([
-//         { key: 'email', type: 'string' },
-//         { key: 'password', type: 'string' },
-//     ]),
-//     login,
-// );
+router.post(
+    '/login',
+    bodyKeys([
+        { key: 'email', type: 'string' },
+        { key: 'password', type: 'string' },
+    ]),
+    login,
+);
 
-// router.get(
-//     '/',
-//     autoLogin,
-// );
+router.get(
+    '/',
+    autoLogin,
+);
+
+router.patch(
+  "/",
+  auth,
+  bodyKeys([{ key: "password", type: "string" }]),
+  editProfile,
+);
 
 export default router;

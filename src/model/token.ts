@@ -1,10 +1,8 @@
-import { BuildOptions, DataTypes, Model, Sequelize } from "sequelize";
+import { BuildOptions, DataTypes, Model, Optional, Sequelize } from "sequelize";
 
 import { IDBTokenAttributes } from "./shared/db-table";
 
-interface TokenModel extends Model<IDBTokenAttributes>, IDBTokenAttributes {}
-
-class Token extends Model<TokenModel, IDBTokenAttributes> {}
+interface TokenModel extends Model<Optional<IDBTokenAttributes, 'id' | 'updatedAt' | 'createdAt'>>, IDBTokenAttributes { }
 
 type TokenStatic = typeof Model & {
   new (values?: object, options?: BuildOptions): TokenModel;
@@ -27,9 +25,4 @@ const TokenFactory = (sequelize: Sequelize): TokenStatic => {
   });
 }
 
-export {
-  TokenModel,
-  Token,
-  TokenFactory,
-  TokenStatic,
-}
+export { TokenFactory }

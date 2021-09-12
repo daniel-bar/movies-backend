@@ -300,3 +300,1105 @@
 {"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T22:14:18.766Z"}
 {"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T22:14:37.505Z"}
 {"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T22:14:38.101Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T22:52:04.799Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T22:52:05.423Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-04T22:52:47.894Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-04T22:52:48.547Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T13:50:21.554Z"}
+{"message":"<register>: Start processing request with email: ss@ss.com","level":"info","timestamp":"2021-09-05T13:50:21.918Z"}
+{"message":"<register>: Failed to register because provided email ss@ss.com is already exist","level":"error","timestamp":"2021-09-05T13:50:21.955Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T13:50:22.420Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T13:53:30.572Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T13:53:31.097Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T13:57:25.103Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T13:57:25.623Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T13:57:38.568Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T13:57:39.187Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T13:58:16.602Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T13:58:17.241Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T14:04:04.174Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T14:04:04.685Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T14:04:11.016Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T14:04:11.586Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T14:04:55.211Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T14:04:55.687Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T14:05:07.261Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T14:05:07.761Z"}
+{"message":"<register>: Start processing request with email: ss@ss.com","level":"info","timestamp":"2021-09-05T14:05:11.396Z"}
+{"message":"<register>: Failed to register because of server error: TypeError: Cannot convert undefined or null to object","level":"error","timestamp":"2021-09-05T14:05:11.401Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T14:05:33.912Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T14:05:34.502Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T14:05:41.557Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T14:05:42.119Z"}
+{"message":"<register>: Start processing request with email: ss@ss.com","level":"info","timestamp":"2021-09-05T14:05:44.067Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T14:06:08.441Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T14:06:09.029Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T14:06:22.906Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T14:06:23.461Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T14:06:34.651Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T14:06:35.273Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T14:06:48.018Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T14:06:48.614Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T14:07:02.561Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T14:07:03.077Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T14:07:13.569Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T14:07:14.099Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T14:15:49.154Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T14:15:49.808Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T14:23:53.271Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T14:23:53.938Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T14:25:14.981Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T14:25:15.674Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T14:25:51.419Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T14:25:52.015Z"}
+{"message":"<register>: Start processing request with email: sdd@ss.com","level":"info","timestamp":"2021-09-05T14:26:01.385Z"}
+{"message":"<register>: Successfully registered user with ID: 1","level":"info","timestamp":"2021-09-05T14:26:01.546Z"}
+{"message":"<register>: Start processing request with email: sdded@ss.com","level":"info","timestamp":"2021-09-05T14:26:30.507Z"}
+{"message":"<register>: Successfully registered user with ID: 2","level":"info","timestamp":"2021-09-05T14:26:30.589Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T14:27:10.732Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T14:27:11.225Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T14:27:34.201Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T14:27:34.772Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T14:27:43.778Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T14:27:44.363Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T14:27:50.076Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T14:27:50.575Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T14:29:49.053Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T14:29:49.605Z"}
+{"message":"<login>: Start processing request with email: sdded@ss.com","level":"info","timestamp":"2021-09-05T14:29:51.623Z"}
+{"message":"<login>: Failed to login because the email sdded@ss.com does not match any user","level":"error","timestamp":"2021-09-05T14:29:51.641Z"}
+{"message":"<login>: Start processing request with email: sdd@ss.com","level":"info","timestamp":"2021-09-05T14:30:52.776Z"}
+{"message":"<login>: Failed to login because the email sdd@ss.com does not match any user","level":"error","timestamp":"2021-09-05T14:30:52.789Z"}
+{"message":"<login>: Start processing request with email: s@ss.com","level":"info","timestamp":"2021-09-05T14:30:57.618Z"}
+{"message":"<login>: Failed to login because the email s@ss.com does not match any user","level":"error","timestamp":"2021-09-05T14:30:57.621Z"}
+{"message":"<login>: Start processing request with email: sdc@ss.com","level":"info","timestamp":"2021-09-05T14:31:01.814Z"}
+{"message":"<login>: Failed to login because the email sdc@ss.com does not match any user","level":"error","timestamp":"2021-09-05T14:31:01.819Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T14:31:20.881Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T14:31:21.430Z"}
+{"message":"<login>: Start processing request with email: sdc@ss.com","level":"info","timestamp":"2021-09-05T14:31:26.169Z"}
+{"message":"<login>: Failed to login because the email sdc@ss.com does not match any user","level":"error","timestamp":"2021-09-05T14:31:26.194Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T14:31:52.380Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T14:31:52.862Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-05T14:32:29.419Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-05T14:32:29.944Z"}
+{"message":"<login>: Start processing request with email: sdc@ss.com","level":"info","timestamp":"2021-09-05T14:32:31.981Z"}
+{"message":"<login>: Failed to login because the email sdc@ss.com does not match any user","level":"error","timestamp":"2021-09-05T14:32:32.002Z"}
+{"message":"<register>: Start processing request with email: sdded@ss.com","level":"info","timestamp":"2021-09-05T14:34:00.643Z"}
+{"message":"<register>: Successfully registered user with ID: 1","level":"info","timestamp":"2021-09-05T14:34:00.798Z"}
+{"message":"<login>: Start processing request with email: sdded@ss.com","level":"info","timestamp":"2021-09-05T14:34:20.309Z"}
+{"message":"<login>: Successfully logged user in with email: sdded@ss.com to user id: 1","level":"info","timestamp":"2021-09-05T14:34:20.398Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:33:52.989Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:33:53.594Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:34:37.407Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:34:37.996Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:34:49.894Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:34:50.436Z"}
+{"message":"<autoLogin>: Start processing request","level":"info","timestamp":"2021-09-07T12:35:24.833Z"}
+{"message":"<autoLogin>: Failed to auto login because of login error: TypeError: Cannot read property 'replace' of undefined","level":"error","timestamp":"2021-09-07T12:35:24.835Z"}
+{"message":"<login>: Start processing request with email: sdded@ss.com","level":"info","timestamp":"2021-09-07T12:35:40.791Z"}
+{"message":"<login>: Failed to login because the email sdded@ss.com does not match any user","level":"error","timestamp":"2021-09-07T12:35:40.826Z"}
+{"message":"<register>: Start processing request with email: sdded@ss.com","level":"info","timestamp":"2021-09-07T12:35:59.505Z"}
+{"message":"<register>: Successfully registered user with ID: 1","level":"info","timestamp":"2021-09-07T12:35:59.603Z"}
+{"message":"<login>: Start processing request with email: sdded@ss.com","level":"info","timestamp":"2021-09-07T12:36:02.950Z"}
+{"message":"<login>: Successfully logged user in with email: sdded@ss.com to user id: 1","level":"info","timestamp":"2021-09-07T12:36:02.984Z"}
+{"message":"<autoLogin>: Start processing request","level":"info","timestamp":"2021-09-07T12:36:06.351Z"}
+{"message":"<autoLogin>: Failed to auto login because of login error: TypeError: Cannot read property 'replace' of undefined","level":"error","timestamp":"2021-09-07T12:36:06.352Z"}
+{"message":"<autoLogin>: Start processing request","level":"info","timestamp":"2021-09-07T12:37:35.412Z"}
+{"message":"<autoLogin>: Successfully auto login user with id 1","level":"info","timestamp":"2021-09-07T12:37:35.424Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:38:01.466Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:38:02.007Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:38:29.824Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:38:29.991Z"}
+{"message":"<register>: Start processing request with email: sdded@ss.com","level":"info","timestamp":"2021-09-07T12:38:52.096Z"}
+{"message":"<register>: Successfully registered user with ID: 1","level":"info","timestamp":"2021-09-07T12:38:52.263Z"}
+{"message":"<login>: Start processing request with email: sdded@ss.com","level":"info","timestamp":"2021-09-07T12:38:55.388Z"}
+{"message":"<login>: Successfully logged user in with email: sdded@ss.com to user id: 1","level":"info","timestamp":"2021-09-07T12:38:55.463Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:39:03.580Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:39:03.688Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:43:31.081Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:43:31.220Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:43:42.663Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:43:42.838Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:44:57.619Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:44:57.811Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:45:08.551Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:45:08.722Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:46:00.426Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:46:00.552Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:46:11.366Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:46:11.492Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:46:17.658Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:46:17.769Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:46:44.403Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:46:44.561Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:46:50.635Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:46:50.746Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:47:06.062Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:47:06.176Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:48:23.001Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:48:23.102Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:49:05.564Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:49:05.730Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:49:39.847Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:49:40.023Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:55:52.986Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:55:53.104Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:56:04.230Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:56:04.344Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:56:15.521Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:56:15.650Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:56:47.970Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:56:48.138Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:57:07.531Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:57:07.682Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:58:46.470Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:58:46.610Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:59:51.998Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:59:52.138Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T12:59:59.805Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T12:59:59.903Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:00:39.448Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:00:39.551Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:02:07.218Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:02:07.354Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:02:20.720Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:02:20.827Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:02:50.418Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:02:50.540Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:04:14.790Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:04:14.889Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:12:49.706Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:12:49.830Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:17:42.887Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:17:43.108Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:19:30.477Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:19:30.668Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:19:51.166Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:19:51.289Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:23:16.405Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:23:16.530Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:24:54.938Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:24:55.044Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:27:59.464Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:27:59.651Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:28:29.772Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:28:29.865Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:30:05.872Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:30:06.029Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:32:00.088Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:32:00.277Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:33:43.451Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:33:43.631Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:33:53.952Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:33:54.577Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:34:28.744Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:34:29.368Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:34:38.074Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:34:38.640Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:34:48.989Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:34:49.589Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:36:42.382Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:36:42.906Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:37:52.253Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:37:52.868Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:38:08.314Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:38:08.910Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:39:39.687Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:39:40.255Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:46:29.808Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:46:30.336Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:46:59.319Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:46:59.827Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:47:10.548Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:47:11.146Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:52:00.309Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:52:00.972Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:53:00.593Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:53:01.279Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:53:23.184Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:53:23.690Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T13:54:44.391Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T13:54:44.915Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T14:03:48.419Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T14:03:49.096Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T14:04:06.702Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T14:04:07.314Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T14:05:05.360Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T14:05:05.531Z"}
+{"message":"<register>: Start processing request with email: sdded@ss.com","level":"info","timestamp":"2021-09-07T14:05:09.204Z"}
+{"message":"<register>: Successfully registered user with ID: 1","level":"info","timestamp":"2021-09-07T14:05:09.374Z"}
+{"message":"<login>: Start processing request with email: sdded@ss.com","level":"info","timestamp":"2021-09-07T14:05:12.472Z"}
+{"message":"<login>: Successfully logged user in with email: sdded@ss.com to user id: 1","level":"info","timestamp":"2021-09-07T14:05:12.536Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-07T14:08:36.302Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-07T14:08:36.318Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-07T14:08:36.320Z"}
+{"message":"<addMovie>: Successfully added movie with id: 1","level":"info","timestamp":"2021-09-07T14:08:36.335Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T18:08:13.853Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T18:08:13.967Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-07T18:08:17.563Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-07T18:08:17.588Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-07T18:08:17.593Z"}
+{"message":"<addMovie>: Successfully added movie with id: 2","level":"info","timestamp":"2021-09-07T18:08:17.629Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T18:08:49.339Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T18:08:49.521Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-07T18:08:53.248Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-07T18:08:53.273Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-07T18:08:53.278Z"}
+{"message":"<addMovie>: Successfully added movie with id: 3","level":"info","timestamp":"2021-09-07T18:08:53.313Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T18:09:35.105Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T18:09:35.255Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-07T18:09:39.385Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-07T18:09:39.407Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-07T18:09:39.410Z"}
+{"message":"<addMovie>: Successfully added movie with id: 4","level":"info","timestamp":"2021-09-07T18:09:39.455Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T18:10:24.939Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T18:10:25.127Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T18:13:10.959Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T18:13:11.108Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T18:26:55.590Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T18:26:55.749Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T18:27:12.677Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T18:27:12.810Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T18:27:26.004Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T18:27:26.173Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T18:32:19.717Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T18:32:19.860Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T18:32:56.615Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T18:32:56.754Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-07T18:32:59.793Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-07T18:32:59.816Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-07T18:32:59.820Z"}
+{"message":"<addMovie>: Successfully added movie with id: 5","level":"info","timestamp":"2021-09-07T18:32:59.856Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T18:33:23.460Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T18:33:23.614Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T18:33:54.028Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T18:33:54.502Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-07T18:33:58.787Z"}
+{"message":"\n                [auth middleware]: Failed to authenticate because could not find user with id 1","level":"error","timestamp":"2021-09-07T18:33:58.820Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T18:34:36.737Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T18:34:36.850Z"}
+{"message":"<register>: Start processing request with email: sdded@ss.com","level":"info","timestamp":"2021-09-07T18:34:44.643Z"}
+{"message":"<register>: Successfully registered user with ID: 1","level":"info","timestamp":"2021-09-07T18:34:44.800Z"}
+{"message":"<login>: Start processing request with email: sdded@ss.com","level":"info","timestamp":"2021-09-07T18:34:47.199Z"}
+{"message":"<login>: Successfully logged user in with email: sdded@ss.com to user id: 1","level":"info","timestamp":"2021-09-07T18:34:47.260Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-07T18:35:23.476Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-07T18:35:23.495Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-07T18:35:23.497Z"}
+{"message":"<addMovie>: Successfully added movie with id: 1","level":"info","timestamp":"2021-09-07T18:35:23.512Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T18:36:17.912Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T18:36:18.017Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T18:40:56.215Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T18:40:56.402Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-07T18:40:59.392Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-07T18:40:59.414Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-07T18:40:59.418Z"}
+{"message":"<addMovie>: Successfully added movie with id: 2","level":"info","timestamp":"2021-09-07T18:40:59.457Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-07T18:41:40.403Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-07T18:41:40.570Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-08T09:55:32.873Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-08T09:55:33.014Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-08T09:55:56.443Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-08T09:55:56.611Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-08T09:56:10.580Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-08T09:56:10.729Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-08T09:56:14.992Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-08T09:56:15.024Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-08T09:56:15.033Z"}
+{"message":"<addMovie>: Successfully added movie with id: 3","level":"info","timestamp":"2021-09-08T09:56:15.080Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-08T09:56:46.588Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-08T09:56:46.718Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-08T09:58:30.555Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-08T09:58:30.685Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-08T09:58:33.044Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-08T09:58:33.059Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-08T09:58:33.065Z"}
+{"message":"<addMovie>: Successfully added movie with id: 4","level":"info","timestamp":"2021-09-08T09:58:33.090Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-08T09:58:47.112Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-08T09:58:47.292Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-08T09:59:23.396Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-08T09:59:29.655Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-08T09:59:36.543Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-08T09:59:36.729Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-08T09:59:43.478Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-08T09:59:43.502Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-08T09:59:43.506Z"}
+{"message":"<addMovie>: Successfully added movie with id: 5","level":"info","timestamp":"2021-09-08T09:59:43.542Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-08T10:00:24.384Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-08T10:00:24.503Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-08T10:00:33.028Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-08T10:00:33.053Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-08T10:00:33.058Z"}
+{"message":"<addMovie>: Successfully added movie with id: 6","level":"info","timestamp":"2021-09-08T10:00:33.098Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-08T10:01:20.164Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-08T10:01:20.284Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-08T10:01:26.365Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-08T10:01:26.398Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-08T10:01:26.401Z"}
+{"message":"<addMovie>: Successfully added movie with id: 7","level":"info","timestamp":"2021-09-08T10:01:26.433Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-08T10:02:32.530Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-08T10:02:32.707Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-08T10:02:37.132Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-08T10:02:37.149Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-08T10:02:37.151Z"}
+{"message":"<addMovie>: Successfully added movie with id: 8","level":"info","timestamp":"2021-09-08T10:02:37.181Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-08T10:03:29.493Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-08T10:03:29.648Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-08T10:03:32.276Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-08T10:03:32.301Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-08T10:03:32.306Z"}
+{"message":"<addMovie>: Successfully added movie with id: 9","level":"info","timestamp":"2021-09-08T10:03:32.348Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-08T10:05:11.978Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-08T10:05:12.167Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-08T10:05:25.780Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-08T10:05:25.814Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-08T10:05:25.817Z"}
+{"message":"<addMovie>: Successfully added movie with id: 10","level":"info","timestamp":"2021-09-08T10:05:25.859Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-08T10:09:44.351Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-08T10:09:44.507Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-08T10:09:46.815Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-08T10:09:46.851Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-08T10:09:46.855Z"}
+{"message":"<addMovie>: Successfully added movie with id: 11","level":"info","timestamp":"2021-09-08T10:09:46.895Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-09T15:36:50.780Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-09T15:36:51.104Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-09T15:37:28.744Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-09T15:37:28.925Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-09T15:38:26.990Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-09T15:38:27.128Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-09T15:39:35.941Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-09T15:39:36.111Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-09T15:49:52.659Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-09T15:49:52.751Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-09T15:50:07.581Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-09T15:50:07.694Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-09T15:50:32.409Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-09T15:50:32.520Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-09T15:50:35.132Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-09T15:50:35.150Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-09T15:50:35.152Z"}
+{"message":"<addMovie>: Successfully added movie with id: 12","level":"info","timestamp":"2021-09-09T15:50:35.177Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-09T15:59:05.686Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-09T15:59:05.790Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-09T16:01:11.640Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-09T16:01:11.728Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-09T16:01:15.092Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-09T16:01:15.106Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-09T16:01:15.108Z"}
+{"message":"<addMovie>: Successfully added movie with id: 13","level":"info","timestamp":"2021-09-09T16:01:15.125Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-09T16:02:46.189Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-09T16:02:46.277Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-09T16:03:16.243Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-09T16:03:16.325Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-09T16:03:25.369Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-09T16:03:25.383Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-09T16:03:25.400Z"}
+{"message":"<addMovie>: Failed to add movie because of server error: TypeError: Cannot read property 'length' of undefined","level":"error","timestamp":"2021-09-09T16:03:25.401Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-09T16:05:15.830Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-09T16:05:15.841Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-09T16:05:15.849Z"}
+{"message":"<addMovie>: Successfully added movie with id: 14","level":"info","timestamp":"2021-09-09T16:05:15.874Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-09T16:47:38.520Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-09T16:47:38.642Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-09T16:49:35.629Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-09T16:49:35.758Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-09T16:54:39.238Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-09T16:54:39.361Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-09T16:54:42.442Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-09T16:54:42.459Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-09T16:56:12.604Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-09T16:56:12.731Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-09T16:56:19.267Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-09T16:56:19.284Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-09T16:57:10.842Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-09T16:57:10.989Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-09T16:57:17.369Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-09T16:57:17.490Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-09T16:57:21.090Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-09T16:57:21.103Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-09T16:57:21.162Z"}
+{"message":"<addMovie>: Successfully added movie with id: 15","level":"info","timestamp":"2021-09-09T16:57:21.189Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-09T16:57:53.986Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-09T16:57:54.100Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-09T16:57:56.952Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-09T16:57:56.970Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-09T16:57:57.024Z"}
+{"message":"<addMovie>: Successfully added movie with id: 16","level":"info","timestamp":"2021-09-09T16:57:57.053Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-09T17:08:48.031Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-09T17:08:48.219Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-09T17:08:51.700Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-09T17:08:51.727Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-09T17:08:51.825Z"}
+{"message":"<addMovie>: Successfully added movie with id: 17","level":"info","timestamp":"2021-09-09T17:08:51.866Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-09T17:20:16.859Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-09T17:20:17.030Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-09T17:20:19.622Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-09T17:20:19.646Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-09T17:20:19.742Z"}
+{"message":"<addMovie>: Successfully added movie with id: 18","level":"info","timestamp":"2021-09-09T17:20:19.779Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-09T17:26:50.272Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-09T17:26:50.442Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-09T17:26:54.230Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-09T17:26:54.254Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-09T17:26:54.347Z"}
+{"message":"<addMovie>: Successfully added movie with id: 19","level":"info","timestamp":"2021-09-09T17:26:54.394Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-09T17:27:47.063Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-09T17:27:47.229Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-09T17:27:49.788Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-09T17:27:49.815Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-09T17:27:49.907Z"}
+{"message":"<addMovie>: Successfully added movie with id: 20","level":"info","timestamp":"2021-09-09T17:27:49.949Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T11:26:18.180Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T11:26:18.395Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T11:27:50.001Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T11:27:50.192Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T11:27:53.403Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T11:27:53.429Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T11:27:53.548Z"}
+{"message":"<addMovie>: Successfully added movie with id: 21","level":"info","timestamp":"2021-09-10T11:27:53.596Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T11:37:21.807Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T11:37:22.004Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T11:37:33.654Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T11:37:33.698Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T11:37:33.803Z"}
+{"message":"<addMovie>: Successfully added movie with id: 22","level":"info","timestamp":"2021-09-10T11:37:33.848Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T11:38:33.239Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T11:38:33.424Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T11:38:36.403Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T11:38:36.434Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T11:38:36.527Z"}
+{"message":"<addMovie>: Successfully added movie with id: 23","level":"info","timestamp":"2021-09-10T11:38:36.572Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T11:39:08.246Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T11:39:08.404Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T11:39:10.819Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T11:39:10.843Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T11:39:10.940Z"}
+{"message":"<addMovie>: Successfully added movie with id: 24","level":"info","timestamp":"2021-09-10T11:39:10.983Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T12:00:41.082Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T12:00:41.177Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T12:00:45.637Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T12:00:45.654Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T12:00:45.710Z"}
+{"message":"<addMovie>: Successfully added movie with id: 25","level":"info","timestamp":"2021-09-10T12:00:45.733Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T12:01:01.628Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T12:01:01.711Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T12:01:16.383Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T12:01:16.404Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T12:01:16.455Z"}
+{"message":"<addMovie>: Successfully added movie with id: 26","level":"info","timestamp":"2021-09-10T12:01:16.479Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T12:02:11.005Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T12:02:11.202Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T12:02:13.687Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T12:02:13.710Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T12:02:13.823Z"}
+{"message":"<addMovie>: Successfully added movie with id: 27","level":"info","timestamp":"2021-09-10T12:02:13.862Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T12:02:45.608Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T12:02:45.759Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T12:03:12.374Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T12:03:12.519Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T12:04:32.149Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T12:04:32.182Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T12:04:32.296Z"}
+{"message":"<addMovie>: Successfully added movie with id: 28","level":"info","timestamp":"2021-09-10T12:04:32.340Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T12:04:55.265Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T12:04:55.418Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T12:04:58.578Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T12:04:58.602Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T12:04:58.724Z"}
+{"message":"<addMovie>: Successfully added movie with id: 29","level":"info","timestamp":"2021-09-10T12:04:58.766Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T12:12:20.464Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T12:12:20.605Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T12:12:24.865Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T12:12:24.894Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T12:12:25.005Z"}
+{"message":"<addMovie>: Successfully added movie with id: 30","level":"info","timestamp":"2021-09-10T12:12:25.044Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T12:14:12.204Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T12:14:12.395Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T12:51:50.570Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T12:51:50.757Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T12:51:53.254Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T12:51:53.289Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T12:51:53.397Z"}
+{"message":"<addMovie>: Successfully added movie with id: 31","level":"info","timestamp":"2021-09-10T12:51:53.444Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T13:07:01.172Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T13:07:01.317Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T13:07:24.304Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T13:07:24.434Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T13:08:40.649Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T13:08:40.800Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T16:44:31.645Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T16:44:31.815Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T16:44:46.295Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T16:44:46.378Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T16:45:08.191Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T16:45:08.317Z"}
+{"message":"<getProducts>: Start processing request","level":"info","timestamp":"2021-09-10T16:45:53.610Z"}
+{"message":"<getProducts>: Failed to get products because of server error: Error: WHERE parameter \"category\" has invalid \"undefined\" value","level":"error","timestamp":"2021-09-10T16:45:53.629Z"}
+{"message":"<getProducts>: Start processing request","level":"info","timestamp":"2021-09-10T16:47:11.016Z"}
+{"message":"<getProducts>: Successfully got the products","level":"info","timestamp":"2021-09-10T16:47:11.036Z"}
+{"message":"<getProducts>: Start processing request","level":"info","timestamp":"2021-09-10T16:47:18.885Z"}
+{"message":"<getProducts>: Failed to get products because of server error: Error: WHERE parameter \"category\" has invalid \"undefined\" value","level":"error","timestamp":"2021-09-10T16:47:18.891Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T16:47:45.725Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T16:47:45.863Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T16:48:12.599Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T16:48:12.696Z"}
+{"message":"<getProducts>: Start processing request","level":"info","timestamp":"2021-09-10T16:48:16.183Z"}
+{"message":"<getProducts>: Failed to get products because of server error: Error: WHERE parameter \"category\" has invalid \"undefined\" value","level":"error","timestamp":"2021-09-10T16:48:16.198Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T16:48:27.855Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T16:48:27.938Z"}
+{"message":"<getProducts>: Start processing request","level":"info","timestamp":"2021-09-10T16:48:30.100Z"}
+{"message":"<getProducts>: Successfully got the products","level":"info","timestamp":"2021-09-10T16:48:30.117Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T16:49:12.745Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T16:49:12.837Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T16:49:42.489Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T16:49:42.595Z"}
+{"message":"<getProducts>: Start processing request","level":"info","timestamp":"2021-09-10T16:49:56.465Z"}
+{"message":"<getProducts>: Failed to get products because of server error: Error: WHERE parameter \"category\" has invalid \"undefined\" value","level":"error","timestamp":"2021-09-10T16:49:56.484Z"}
+{"message":"<getProducts>: Start processing request","level":"info","timestamp":"2021-09-10T16:50:18.211Z"}
+{"message":"<getProducts>: Failed to get products because of server error: Error: WHERE parameter \"category\" has invalid \"undefined\" value","level":"error","timestamp":"2021-09-10T16:50:18.217Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T16:51:23.425Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T16:51:23.532Z"}
+{"message":"<getProducts>: Start processing request","level":"info","timestamp":"2021-09-10T16:51:25.859Z"}
+{"message":"<getProducts>: Successfully got the products","level":"info","timestamp":"2021-09-10T16:51:25.877Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T16:51:45.740Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T16:51:45.845Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T16:54:47.187Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T16:54:47.307Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T16:57:19.682Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T16:57:19.702Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T16:57:19.766Z"}
+{"message":"<addMovie>: Successfully added movie with id: 32","level":"info","timestamp":"2021-09-10T16:57:19.797Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T19:42:54.260Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T19:42:54.397Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T19:45:57.976Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T19:45:58.019Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T19:45:58.115Z"}
+{"message":"<addMovie>: Successfully added movie with id: 33","level":"info","timestamp":"2021-09-10T19:45:58.209Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T19:46:40.606Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T19:46:40.769Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T19:49:13.300Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T19:49:13.483Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T19:49:16.750Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T19:49:16.776Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T19:49:16.857Z"}
+{"message":"<addMovie>: Successfully added movie with id: 34","level":"info","timestamp":"2021-09-10T19:49:16.902Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T19:49:40.256Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T19:49:40.409Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T19:49:44.411Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T19:49:44.434Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T19:49:44.521Z"}
+{"message":"<addMovie>: Successfully added movie with id: 35","level":"info","timestamp":"2021-09-10T19:49:44.565Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T19:50:12.049Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T19:50:12.228Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T19:50:25.308Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T19:50:25.337Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T19:50:25.423Z"}
+{"message":"<addMovie>: Successfully added movie with id: 36","level":"info","timestamp":"2021-09-10T19:50:25.469Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T19:51:37.453Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T19:51:37.615Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T19:51:42.591Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T19:51:42.615Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T19:51:42.700Z"}
+{"message":"<addMovie>: Successfully added movie with id: 37","level":"info","timestamp":"2021-09-10T19:51:42.741Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T19:52:26.660Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T19:52:26.772Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T19:52:28.813Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T19:52:28.835Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T19:52:28.915Z"}
+{"message":"<addMovie>: Successfully added movie with id: 38","level":"info","timestamp":"2021-09-10T19:52:28.961Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T19:53:12.905Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T19:53:13.067Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T19:53:15.222Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T19:53:15.246Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T19:53:15.342Z"}
+{"message":"<addMovie>: Successfully added movie with id: 39","level":"info","timestamp":"2021-09-10T19:53:15.385Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T19:53:46.065Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T19:53:46.251Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T19:53:48.897Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T19:53:48.920Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T19:53:49.015Z"}
+{"message":"<addMovie>: Successfully added movie with id: 40","level":"info","timestamp":"2021-09-10T19:53:49.060Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T19:55:00.945Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T19:55:01.134Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T19:55:16.247Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T19:55:16.393Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T19:55:18.365Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T19:55:18.388Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T19:55:41.891Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T19:55:42.019Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T19:55:44.328Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T19:55:44.352Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T19:55:44.446Z"}
+{"message":"<addMovie>: Successfully added movie with id: 41","level":"info","timestamp":"2021-09-10T19:55:44.485Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T19:56:24.305Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T19:56:24.490Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T19:57:07.257Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T19:57:07.442Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T19:57:21.504Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T19:57:21.533Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T19:57:21.615Z"}
+{"message":"<addMovie>: Successfully added movie with id: 42","level":"info","timestamp":"2021-09-10T19:57:21.657Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T19:57:38.024Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T19:57:38.168Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T19:57:56.166Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T19:57:56.354Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T19:59:15.793Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T19:59:15.946Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T19:59:32.186Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T19:59:32.338Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T19:59:53.764Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T19:59:53.950Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T20:00:06.092Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T20:00:06.256Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T20:00:16.136Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T20:00:16.284Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T20:01:31.912Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T20:01:32.102Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T20:01:46.024Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T20:01:46.163Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T20:01:59.649Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T20:01:59.792Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T20:07:01.266Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T20:07:01.420Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T20:08:36.664Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T20:08:36.795Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T20:11:06.189Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T20:11:06.361Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T20:11:37.207Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T20:11:37.398Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T20:11:47.268Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T20:11:47.406Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T20:14:37.971Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T20:14:38.135Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T20:16:19.687Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T20:16:19.826Z"}
+{"message":"<getMovie>: Start processing request with movie Id 12","level":"info","timestamp":"2021-09-10T20:16:26.473Z"}
+{"message":"<getMovie>: Successfully got movie with id 12","level":"info","timestamp":"2021-09-10T20:16:26.503Z"}
+{"message":"<getMovie>: Start processing request with movie Id 12","level":"info","timestamp":"2021-09-10T20:18:39.384Z"}
+{"message":"<getMovie>: Successfully got movie with id 12","level":"info","timestamp":"2021-09-10T20:18:39.400Z"}
+{"message":"<getMovie>: Start processing request with movie Id 30","level":"info","timestamp":"2021-09-10T20:19:01.809Z"}
+{"message":"<getMovie>: Successfully got movie with id 30","level":"info","timestamp":"2021-09-10T20:19:01.821Z"}
+{"message":"<getMovie>: Start processing request with movie Id 41","level":"info","timestamp":"2021-09-10T20:19:18.684Z"}
+{"message":"<getMovie>: Successfully got movie with id 41","level":"info","timestamp":"2021-09-10T20:19:18.692Z"}
+{"message":"<getMovie>: Start processing request with movie Id 45","level":"info","timestamp":"2021-09-10T20:19:23.066Z"}
+{"message":"<getMovie>: Failed to find movie with id 45","level":"error","timestamp":"2021-09-10T20:19:23.072Z"}
+{"message":"<getMovie>: Start processing request with movie Id 42","level":"info","timestamp":"2021-09-10T20:19:31.888Z"}
+{"message":"<getMovie>: Successfully got movie with id 42","level":"info","timestamp":"2021-09-10T20:19:31.896Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T20:22:11.558Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T20:22:11.748Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:08:37.566Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:08:37.688Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T21:08:58.792Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T21:08:58.824Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T21:08:58.900Z"}
+{"message":"<addMovie>: Failed to add movie because invalid category","level":"error","timestamp":"2021-09-10T21:08:58.901Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T21:09:05.662Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T21:09:05.670Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T21:09:05.713Z"}
+{"message":"<addMovie>: Successfully added movie with id: 43","level":"info","timestamp":"2021-09-10T21:09:05.761Z"}
+{"message":"<getMovie>: Start processing request with movie Id 42","level":"info","timestamp":"2021-09-10T21:09:16.373Z"}
+{"message":"<getMovie>: Successfully got movie with id 42","level":"info","timestamp":"2021-09-10T21:09:16.387Z"}
+{"message":"<getMovie>: Start processing request with movie Id 43","level":"info","timestamp":"2021-09-10T21:09:22.390Z"}
+{"message":"<getMovie>: Successfully got movie with id 43","level":"info","timestamp":"2021-09-10T21:09:22.395Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:10:03.241Z"}
+{"message":"<getMovies>: Failed to get movies because of server error: Error: WHERE parameter \"category\" has invalid \"undefined\" value","level":"error","timestamp":"2021-09-10T21:10:03.245Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:11:27.879Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:11:28.016Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:11:30.143Z"}
+{"message":"<getMovies>: Failed to get movies because of server error: Error: WHERE parameter \"category\" has invalid \"undefined\" value","level":"error","timestamp":"2021-09-10T21:11:30.150Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:11:40.926Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:11:41.081Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:11:45.625Z"}
+{"message":"<getMovies>: Failed to get movies because of server error: Error: WHERE parameter \"category\" has invalid \"undefined\" value","level":"error","timestamp":"2021-09-10T21:11:45.633Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:12:31.194Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:12:31.336Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:12:39.842Z"}
+{"message":"<getMovies>: Failed to get movies because of server error: TypeError: Cannot read property 'length' of undefined","level":"error","timestamp":"2021-09-10T21:12:39.844Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:13:03.300Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:13:03.455Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:13:06.204Z"}
+{"message":"<getMovies>: Failed to get movies because of server error: TypeError: Cannot read property 'length' of undefined","level":"error","timestamp":"2021-09-10T21:13:06.206Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:13:37.799Z"}
+{"message":"<getMovies>: Failed to get movies because of server error: TypeError: Cannot read property 'length' of undefined","level":"error","timestamp":"2021-09-10T21:13:37.800Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:13:48.978Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:13:49.110Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:13:51.159Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T21:13:51.185Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:14:55.803Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:14:56.000Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:14:59.098Z"}
+{"message":"<getMovies>: Failed to get movies because of server error: Error: WHERE parameter \"category\" has invalid \"undefined\" value","level":"error","timestamp":"2021-09-10T21:14:59.105Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:15:30.557Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:15:30.716Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:15:43.130Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:15:43.325Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:15:45.814Z"}
+{"message":"<getMovies>: Failed to get movies because of server error: TypeError: Cannot read property 'length' of undefined","level":"error","timestamp":"2021-09-10T21:15:45.816Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:16:12.927Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:16:13.084Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:16:15.862Z"}
+{"message":"<getMovies>: Failed to get movies because of server error: Error: WHERE parameter \"category\" has invalid \"undefined\" value","level":"error","timestamp":"2021-09-10T21:16:15.873Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:16:34.994Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:16:35.152Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:16:37.882Z"}
+{"message":"<getMovies>: Failed to get movies because of server error: TypeError: Cannot read property 'length' of undefined","level":"error","timestamp":"2021-09-10T21:16:37.883Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:16:51.506Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:16:51.657Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:17:06.776Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T21:17:06.806Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:18:23.720Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:18:23.996Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T21:18:37.043Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T21:18:37.063Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T21:18:37.118Z"}
+{"message":"<addMovie>: Failed to add movie because of server error: SequelizeDatabaseError: Data truncated for column 'category' at row 1","level":"error","timestamp":"2021-09-10T21:18:37.140Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T21:18:42.411Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T21:18:42.416Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T21:18:42.450Z"}
+{"message":"<addMovie>: Failed to add movie because of server error: SequelizeDatabaseError: Data truncated for column 'category' at row 1","level":"error","timestamp":"2021-09-10T21:18:42.455Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T21:20:42.161Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T21:20:42.168Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T21:20:42.194Z"}
+{"message":"<addMovie>: Failed to add movie because invalid category","level":"error","timestamp":"2021-09-10T21:20:42.195Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T21:20:48.998Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T21:20:49.002Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T21:20:49.033Z"}
+{"message":"<addMovie>: Successfully added movie with id: 1","level":"info","timestamp":"2021-09-10T21:20:49.047Z"}
+{"message":"<getMovie>: Start processing request with movie Id 1","level":"info","timestamp":"2021-09-10T21:20:58.695Z"}
+{"message":"<getMovie>: Successfully got movie with id 1","level":"info","timestamp":"2021-09-10T21:20:58.701Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:23:56.787Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:23:56.971Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:24:35.606Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:24:36.131Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:24:44.995Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:24:45.200Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T21:24:46.248Z"}
+{"message":"\n                [auth middleware]: Failed to authenticate because could not find user with id 1","level":"error","timestamp":"2021-09-10T21:24:46.270Z"}
+{"message":"<register>: Start processing request with email: sdded@ss.com","level":"info","timestamp":"2021-09-10T21:24:55.644Z"}
+{"message":"<register>: Successfully registered user with ID: 1","level":"info","timestamp":"2021-09-10T21:24:55.789Z"}
+{"message":"<login>: Start processing request with email: sdded@ss.com","level":"info","timestamp":"2021-09-10T21:24:59.705Z"}
+{"message":"<login>: Successfully logged user in with email: sdded@ss.com to user id: 1","level":"info","timestamp":"2021-09-10T21:24:59.771Z"}
+{"message":"<autoLogin>: Start processing request","level":"info","timestamp":"2021-09-10T21:25:31.441Z"}
+{"message":"<autoLogin>: Successfully auto login user with id 1","level":"info","timestamp":"2021-09-10T21:25:31.455Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T21:25:35.937Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T21:25:35.943Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T21:25:36.024Z"}
+{"message":"<addMovie>: Successfully added movie with id: 1","level":"info","timestamp":"2021-09-10T21:25:36.041Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T21:25:40.786Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T21:25:40.791Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T21:25:40.841Z"}
+{"message":"<addMovie>: Successfully added movie with id: 2","level":"info","timestamp":"2021-09-10T21:25:40.857Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T21:25:45.323Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T21:25:45.329Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T21:25:45.361Z"}
+{"message":"<addMovie>: Successfully added movie with id: 3","level":"info","timestamp":"2021-09-10T21:25:45.381Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T21:25:49.055Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T21:25:49.059Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T21:25:49.091Z"}
+{"message":"<addMovie>: Failed to add movie because invalid category","level":"error","timestamp":"2021-09-10T21:25:49.092Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T21:25:53.389Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-10T21:25:53.394Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-10T21:25:53.428Z"}
+{"message":"<addMovie>: Successfully added movie with id: 4","level":"info","timestamp":"2021-09-10T21:25:53.441Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:25:57.595Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T21:25:57.604Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:27:12.525Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:27:12.688Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:27:16.151Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T21:27:16.170Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:27:38.613Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T21:27:38.630Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:27:58.288Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T21:27:58.299Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:28:41.153Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:28:41.327Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:28:47.725Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T21:28:47.740Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:29:05.221Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:29:05.375Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:29:08.665Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T21:29:08.681Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:29:31.662Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T21:29:31.676Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:30:27.856Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:30:28.012Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:30:34.977Z"}
+{"message":"<addMovie>: Failed to add movie because invalid category","level":"error","timestamp":"2021-09-10T21:30:34.979Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:30:43.327Z"}
+{"message":"<addMovie>: Failed to add movie because invalid category","level":"error","timestamp":"2021-09-10T21:30:43.329Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:30:49.191Z"}
+{"message":"<addMovie>: Failed to add movie because invalid category","level":"error","timestamp":"2021-09-10T21:30:49.192Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:31:39.911Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:31:40.069Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:31:42.339Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T21:31:42.350Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:31:49.004Z"}
+{"message":"<addMovie>: Failed to add movie because invalid category","level":"error","timestamp":"2021-09-10T21:31:49.005Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:32:00.739Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T21:32:00.754Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:32:12.620Z"}
+{"message":"<addMovie>: Failed to add movie because invalid category","level":"error","timestamp":"2021-09-10T21:32:12.621Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:35:56.278Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:35:56.443Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:36:23.580Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:36:23.718Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:36:31.922Z"}
+{"message":"<getMovies>: Failed to get movies because of server error: Error: WHERE parameter \"category\" has invalid \"undefined\" value","level":"error","timestamp":"2021-09-10T21:36:31.932Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:38:01.818Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:38:01.986Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:38:05.353Z"}
+{"message":"<getMovies>: Failed to get movies because of server error: Error: WHERE parameter \"category\" has invalid \"undefined\" value","level":"error","timestamp":"2021-09-10T21:38:05.362Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:38:31.310Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:38:31.402Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:38:33.474Z"}
+{"message":"<getMovies>: Failed to get movies because of server error: Error: WHERE parameter \"category\" has invalid \"undefined\" value","level":"error","timestamp":"2021-09-10T21:38:33.490Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:39:13.884Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:39:14.079Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:39:26.021Z"}
+{"message":"<getMovies>: Failed to get movies because of server error: Error: WHERE parameter \"category\" has invalid \"undefined\" value","level":"error","timestamp":"2021-09-10T21:39:26.042Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:40:24.069Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:40:24.277Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:40:36.481Z"}
+{"message":"<getMovies>: Failed to get movies because of server error: Error: WHERE parameter \"category\" has invalid \"undefined\" value","level":"error","timestamp":"2021-09-10T21:40:36.500Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:40:49.475Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:40:49.617Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:40:51.698Z"}
+{"message":"<getMovies>: Failed to get movies because of server error: Error: WHERE parameter \"category\" has invalid \"undefined\" value","level":"error","timestamp":"2021-09-10T21:40:51.718Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:41:43.942Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:41:44.041Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:41:45.973Z"}
+{"message":"<getMovies>: Failed to get movies because of server error: Error: WHERE parameter \"category\" has invalid \"undefined\" value","level":"error","timestamp":"2021-09-10T21:41:45.986Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:42:09.347Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:42:09.476Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:42:11.364Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T21:42:11.390Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:42:43.797Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T21:42:43.823Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:42:53.160Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T21:42:53.170Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:43:57.240Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:43:57.406Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:44:35.649Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:44:35.833Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:44:38.452Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T21:44:38.474Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:45:13.617Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:45:13.790Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:46:54.516Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:46:54.686Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:47:04.175Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T21:47:04.187Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:48:57.581Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:48:57.754Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:48:59.978Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T21:49:00.002Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:49:27.510Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T21:49:27.528Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:49:41.919Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:49:42.075Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:49:44.138Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T21:49:44.159Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:49:59.099Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:49:59.265Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:53:20.962Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T21:53:20.993Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:56:33.628Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:56:33.828Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:56:37.473Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T21:56:37.490Z"}
+{"message":"<getMovie>: Start processing request with movie Id list=category=1","level":"info","timestamp":"2021-09-10T21:56:49.829Z"}
+{"message":"<getMovie>: Failed to find movie with id list=category=1","level":"error","timestamp":"2021-09-10T21:56:49.854Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:56:58.029Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T21:56:58.037Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:57:06.584Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T21:57:06.591Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T21:57:26.338Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T21:57:26.493Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T21:57:29.550Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T21:57:29.569Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:01:49.042Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:01:49.159Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T22:02:32.101Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T22:02:32.124Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T22:02:36.216Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T22:02:36.227Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T22:02:42.156Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T22:02:42.162Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T22:02:47.086Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T22:02:47.091Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:05:16.424Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:05:16.552Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:05:34.207Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:05:34.343Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:07:31.694Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:07:31.801Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:08:03.912Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:08:04.037Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:08:17.609Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:08:17.742Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:08:26.189Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:08:26.288Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:09:32.443Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:09:32.584Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:10:09.626Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:10:09.804Z"}
+{"message":"<getMovie>: Start processing request with movie Id categories","level":"info","timestamp":"2021-09-10T22:10:30.427Z"}
+{"message":"<getMovie>: Failed to find movie with id categories","level":"error","timestamp":"2021-09-10T22:10:30.457Z"}
+{"message":"<getMovie>: Start processing request with movie Id categories","level":"info","timestamp":"2021-09-10T22:10:50.276Z"}
+{"message":"<getMovie>: Failed to find movie with id categories","level":"error","timestamp":"2021-09-10T22:10:50.289Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:11:13.336Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:11:13.517Z"}
+{"message":"<getCategories>: Start processing request","level":"info","timestamp":"2021-09-10T22:11:13.723Z"}
+{"message":"<getCategories>: Successfully processed request","level":"info","timestamp":"2021-09-10T22:11:13.724Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:11:55.032Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:11:55.138Z"}
+{"message":"<getCategories>: Start processing request","level":"info","timestamp":"2021-09-10T22:11:57.791Z"}
+{"message":"<getCategories>: Successfully processed request","level":"info","timestamp":"2021-09-10T22:11:57.793Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:12:18.172Z"}
+{"message":"<getMovie>: Start processing request with movie Id categories","level":"info","timestamp":"2021-09-10T22:12:18.363Z"}
+{"message":"<getMovie>: Failed to find movie with id categories","level":"error","timestamp":"2021-09-10T22:12:18.391Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:12:18.421Z"}
+{"message":"<getMovie>: Start processing request with movie Id categories","level":"info","timestamp":"2021-09-10T22:12:26.448Z"}
+{"message":"<getMovie>: Failed to find movie with id categories","level":"error","timestamp":"2021-09-10T22:12:26.454Z"}
+{"message":"<getMovie>: Start processing request with movie Id categories","level":"info","timestamp":"2021-09-10T22:13:13.938Z"}
+{"message":"<getMovie>: Failed to find movie with id categories","level":"error","timestamp":"2021-09-10T22:13:13.946Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:13:42.219Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:13:42.395Z"}
+{"message":"<getMovies>: Start processing request","level":"info","timestamp":"2021-09-10T22:13:43.516Z"}
+{"message":"<getMovies>: Successfully got the movies","level":"info","timestamp":"2021-09-10T22:13:43.535Z"}
+{"message":"<getMovie>: Start processing request with movie Id 1","level":"info","timestamp":"2021-09-10T22:13:48.732Z"}
+{"message":"<getMovie>: Successfully got movie with id 1","level":"info","timestamp":"2021-09-10T22:13:48.740Z"}
+{"message":"<getMovie>: Start processing request with movie Id categories","level":"info","timestamp":"2021-09-10T22:13:56.696Z"}
+{"message":"<getMovie>: Failed to find movie with id categories","level":"error","timestamp":"2021-09-10T22:13:56.701Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:16:16.980Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:16:17.151Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:17:47.641Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:17:47.728Z"}
+{"message":"<getCategories>: Start processing request","level":"info","timestamp":"2021-09-10T22:17:49.060Z"}
+{"message":"<getCategories>: Successfully processed request","level":"info","timestamp":"2021-09-10T22:17:49.061Z"}
+{"message":"<getMovie>: Start processing request with movie Id 2","level":"info","timestamp":"2021-09-10T22:18:01.586Z"}
+{"message":"<getMovie>: Successfully got movie with id 2","level":"info","timestamp":"2021-09-10T22:18:01.607Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:18:58.671Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:18:58.800Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:20:12.803Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:20:12.940Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:20:21.205Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:20:21.315Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:20:27.786Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:20:27.906Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:22:10.188Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:22:10.297Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:22:45.078Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:22:45.208Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:23:49.230Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:23:49.336Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:30:10.823Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:30:10.932Z"}
+{"message":"[admin auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T22:31:01.340Z"}
+{"message":"[admin auth middleware]: Failed to authenticate administrator for id: 1","level":"error","timestamp":"2021-09-10T22:31:01.374Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:32:29.507Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:32:29.620Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:50:24.811Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:50:24.902Z"}
+{"message":"[admin auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T22:50:36.278Z"}
+{"message":"[admin auth middleware]: Failed to authenticate administrator for id: 1","level":"error","timestamp":"2021-09-10T22:50:36.294Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:51:07.603Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:51:07.713Z"}
+{"message":"[admin auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T22:51:10.365Z"}
+{"message":"[admin auth middleware]: Failed to authenticate administrator for id: 1","level":"error","timestamp":"2021-09-10T22:51:10.389Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:52:06.877Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:52:06.993Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:52:26.864Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:52:27.067Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:52:36.323Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:52:36.446Z"}
+{"message":"[admin auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T22:52:39.683Z"}
+{"message":"[admin auth middleware]: Failed to authenticate administrator for id: 1","level":"error","timestamp":"2021-09-10T22:52:39.706Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:54:20.635Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:54:20.781Z"}
+{"message":"[admin auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T22:54:21.901Z"}
+{"message":"[admin auth middleware]: Failed to authenticate administrator for id: 1","level":"error","timestamp":"2021-09-10T22:54:21.917Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:55:04.376Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:55:04.484Z"}
+{"message":"[admin auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T22:55:05.898Z"}
+{"message":"[admin auth middleware]: Successfully authenticated administrator with id 1","level":"info","timestamp":"2021-09-10T22:55:05.928Z"}
+{"message":"<deleteMovie>: Start processing request with movie id 2","level":"info","timestamp":"2021-09-10T22:55:05.931Z"}
+{"message":"<deleteMovie>: Successfully deleted movie with 2","level":"info","timestamp":"2021-09-10T22:55:05.963Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-10T22:55:37.008Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-10T22:55:37.117Z"}
+{"message":"[admin auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T22:55:43.032Z"}
+{"message":"[admin auth middleware]: Successfully authenticated administrator with id 1","level":"info","timestamp":"2021-09-10T22:55:43.055Z"}
+{"message":"<deleteMovie>: Start processing request with movie id 3","level":"info","timestamp":"2021-09-10T22:55:43.058Z"}
+{"message":"<deleteMovie>: Successfully deleted movie with 3","level":"info","timestamp":"2021-09-10T22:55:43.075Z"}
+{"message":"[admin auth middleware]: Start processing request","level":"info","timestamp":"2021-09-10T22:55:46.724Z"}
+{"message":"[admin auth middleware]: Successfully authenticated administrator with id 1","level":"info","timestamp":"2021-09-10T22:55:46.729Z"}
+{"message":"<deleteMovie>: Start processing request with movie id 3","level":"info","timestamp":"2021-09-10T22:55:46.730Z"}
+{"message":"<deleteMovie>: Failed to find movie with id 3","level":"error","timestamp":"2021-09-10T22:55:46.734Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-11T06:31:02.286Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-11T06:31:02.450Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-11T06:31:40.101Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-11T06:31:40.245Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-11T06:38:30.455Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-11T06:38:30.598Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-11T06:46:50.251Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-11T06:46:50.404Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-11T06:46:55.987Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-11T06:46:56.116Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-11T06:49:43.411Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-11T06:49:43.554Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-11T06:52:00.967Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-11T06:52:01.102Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-11T06:52:15.740Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-11T06:52:15.879Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-11T06:52:26.174Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-11T06:52:26.329Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-11T06:53:43.202Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-11T06:53:43.350Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-11T06:54:26.490Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-11T06:54:26.599Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-11T06:55:04.238Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-11T06:55:04.370Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-11T06:55:15.485Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-11T06:55:15.592Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-11T06:56:07.378Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-11T06:56:07.529Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-11T06:59:00.330Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-11T06:59:00.510Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-11T06:59:02.593Z"}
+{"message":"[auth middleware]: Failed to authenticate because of error: TypeError: Cannot read property 'replace' of undefined","level":"error","timestamp":"2021-09-11T06:59:02.595Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-11T06:59:25.086Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-11T06:59:25.115Z"}
+{"message":"Got a request for / but missed the body keys: topic (number)","level":"error","timestamp":"2021-09-11T06:59:25.116Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-11T06:59:33.911Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-11T06:59:33.917Z"}
+{"message":"<contant>: Start processing request with user id: 1","level":"info","timestamp":"2021-09-11T06:59:33.919Z"}
+{"message":"<contant>: Failed to sent message with user id 1 because of server error: Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials f17sm937549wrt.63 - gsmtp","level":"error","timestamp":"2021-09-11T06:59:34.604Z"}
+{"message":"<register>: Start processing request with email: sorisorisori2133@gmail.com","level":"info","timestamp":"2021-09-11T07:02:48.715Z"}
+{"message":"<register>: Failed to register because of server error: SequelizeValidationError: Validation error: Validation len on password failed","level":"error","timestamp":"2021-09-11T07:02:48.847Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-11T07:03:46.648Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-11T07:03:46.769Z"}
+{"message":"<register>: Start processing request with email: sorisorisori2133@gmail.com","level":"info","timestamp":"2021-09-11T07:03:49.332Z"}
+{"message":"<register>: Successfully registered user with ID: 2","level":"info","timestamp":"2021-09-11T07:03:49.504Z"}
+{"message":"<login>: Start processing request with email: sorisorisori2133@gmail.com","level":"info","timestamp":"2021-09-11T07:03:59.917Z"}
+{"message":"<login>: Successfully logged user in with email: sorisorisori2133@gmail.com to user id: 2","level":"info","timestamp":"2021-09-11T07:04:00.004Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-11T07:04:25.723Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-11T07:04:25.742Z"}
+{"message":"<contant>: Start processing request with user id: 2","level":"info","timestamp":"2021-09-11T07:04:25.745Z"}
+{"message":"<contant>: Failed to sent message with user id 2 because of server error: Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials i27sm797353wmb.40 - gsmtp","level":"error","timestamp":"2021-09-11T07:04:26.289Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-11T07:06:23.525Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-11T07:06:23.657Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-11T07:06:27.648Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-11T07:06:27.671Z"}
+{"message":"<contant>: Start processing request with user id: 2","level":"info","timestamp":"2021-09-11T07:06:27.673Z"}
+{"message":"<contant>: Failed to sent message with user id 2 because of server error: Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials v10sm849795wrg.15 - gsmtp","level":"error","timestamp":"2021-09-11T07:06:28.143Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-11T07:07:36.293Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-11T07:07:36.534Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-11T07:07:38.733Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-11T07:07:38.753Z"}
+{"message":"<contant>: Start processing request with user id: 2","level":"info","timestamp":"2021-09-11T07:07:38.756Z"}
+{"message":"<contant>: Failed to sent message with user id 2 because of server error: Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials h18sm850307wrb.33 - gsmtp","level":"error","timestamp":"2021-09-11T07:07:39.300Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-11T07:10:16.110Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-11T07:10:16.122Z"}
+{"message":"<contant>: Start processing request with user id: 2","level":"info","timestamp":"2021-09-11T07:10:16.123Z"}
+{"message":"<contact>: Successfully sent message from user with id 2","level":"info","timestamp":"2021-09-11T07:10:17.560Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-11T21:02:10.750Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-11T21:02:10.903Z"}

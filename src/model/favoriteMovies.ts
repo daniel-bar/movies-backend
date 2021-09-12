@@ -4,8 +4,6 @@ import { IDBFavoriteMoviesAttributes } from "./shared/db-table";
 
 interface FavoriteMoviesModel extends Model<IDBFavoriteMoviesAttributes>, IDBFavoriteMoviesAttributes {}
 
-class FavoriteMovies extends Model<FavoriteMoviesModel, IDBFavoriteMoviesAttributes> {}
-
 type FavoriteMoviesStatic = typeof Model & {
   new (values?: object, options?: BuildOptions): FavoriteMoviesModel;
 };
@@ -26,7 +24,4 @@ const FavoriteMoviesFactory = (sequelize: Sequelize): FavoriteMoviesStatic => {
   });
 }
 
-export {
-  FavoriteMovies,
-  FavoriteMoviesFactory,
-}
+export { FavoriteMoviesFactory }

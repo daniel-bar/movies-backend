@@ -1,22 +1,28 @@
 import path from 'path';
-import mysql from 'mysql2/promise';
 import winston from 'winston';
 
+import { Topic } from './model/shared/topic';
+
+export enum MovieCategory {
+    Action = 1,
+    Comedy,
+    Drama,
+    Fantasy,
+    Horror,
+    Mystery,
+    Romance,
+    Thriller,
+    Western,
+};
+
 class ServerGlobal {
-    private readonly _db: mysql.Pool;
     private readonly _logger: winston.Logger;
+    private readonly _movieCategories: ReadonlyArray<{ value: MovieCategory, label: string }>;
+    private readonly _contactTopics: ReadonlyArray<{ value: Topic, label: string }>;
 
     private static _instance: ServerGlobal;
 
     private constructor() {
-        this._db = mysql.createPool({
-            host: process.env.MYSQL_HOST,
-            port: parseInt(process.env.MYSQL_PORT),
-            user: process.env.MYSQL_USER,
-            password: process.env.MYSQL_PWD,
-            database: process.env.MYSQL_DB_NAME,
-        });
-
         this._logger = winston.createLogger({
             level: 'info',
             format: winston.format.combine(
@@ -31,6 +37,25 @@ class ServerGlobal {
                 }),
             ],
         });
+
+        this._movieCategories = [
+            { value: MovieCategory.Action, label: 'Action' },
+            { value: MovieCategory.Comedy, label: 'Comedy' },
+            { value: MovieCategory.Drama, label: 'Drama' },
+            { value: MovieCategory.Fantasy, label: 'Fantasy' },
+            { value: MovieCategory.Horror, label: 'Horror' },
+            { value: MovieCategory.Mystery, label: 'Mystery' },
+            { value: MovieCategory.Romance, label: 'Romance' },
+            { value: MovieCategory.Thriller, label: 'Thriller' },
+            { value: MovieCategory.Western, label: 'Western' },
+        ];
+
+        this._contactTopics = [
+            { value: Topic.Delivery, label: 'Delivery' },
+            { value: Topic.OrderIssues, label: 'Order Issues' },
+            { value: Topic.ReturnsAndRefunds, label: 'Returns and Refunds' },
+            { value: Topic.Technical, label: 'Technical' },
+        ];
     }
 
     /**
@@ -47,11 +72,66 @@ class ServerGlobal {
     }
 
     /**
-    * Getter for the db pool
-    * @returns db pool instance
+    * Getter for _movieCategories property
+    * @returns _moviesCategories property
     */
-    public get dbPool() {
-        return this._db;
+    public get movieCategories() {
+        return [...this._movieCategories];
+    }
+
+    /**
+    * Getter for the values of the movie movies
+    * @returns product movies values array
+    */
+    public get movieCategoriesValues() {
+        return this._movieCategories.map((movieCategory) => movieCategory.value);
+    }
+
+    /**
+    * Getter for label of provided category value
+    * @param value value of category
+    * @returns label string
+    */
+    public getCategoryLabel(value: MovieCategory) {
+        const matcingCategory = this._movieCategories.find((movieCategory) => movieCategory.value === value);
+
+        if (!matcingCategory) {
+            return null;
+        }
+
+        return matcingCategory.label;
+    }
+
+    /**
+    * Validator for category value
+    * @param value category value
+    * @returns boolean flag indicates whether the category is valid
+    */
+    public isValidCategoryValue(value: MovieCategory) {
+        return !!this._movieCategories.find((movieCategory) => movieCategory.value === value);
+    }
+
+    /**
+    * Getter for label of provided contact topic value
+    * @param value value of contact topic
+    * @returns label string
+    */
+    public getContactTopicLabel(value: Topic) {
+        const matchingTopic = this._contactTopics.find((contactTopic) => contactTopic.value === value);
+
+        if (!matchingTopic) {
+            return null;
+        }
+
+        return matchingTopic.label;
+    }
+
+    /**
+    * Getter for _contactTopics property
+    * @returns _contactTopics property
+    */
+    public get contactTopics() {
+        return [...this._contactTopics];
     }
 
     /**
