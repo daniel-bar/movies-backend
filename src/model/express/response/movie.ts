@@ -48,6 +48,9 @@ type IGetCategoriesResponse = express.Response<
     }
 >;
 
+type IAddFavoriteMoviesResponse = express.Response<IServerResponse>; 
+
+type IDeleteFavoriteMovieResponse = express.Response<IServerResponse>; 
 
 export {
     IAddMovieResponse,
@@ -55,4 +58,6 @@ export {
     IGetMovieResponse,
     IGetCategoriesResponse,
     IDeleteMovieResponse,
+    IAddFavoriteMoviesResponse,
+    IDeleteFavoriteMovieResponse,
 };

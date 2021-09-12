@@ -15,23 +15,17 @@ import {
   getMovie,
   getCategories,
   deleteMovie,
+  addFavoriteMovie,
+  deleteFavoriteMovie,
 } from "../controller/movie";
 
 const router = express.Router();
 
 router.post(
   "/",
-  bodyKeys([
-    { key: 'title', type: 'string' },
-    { key: 'description', type: 'string' },
-    { key: 'category', type: 'string' },
-    { key: 'release_date', type: 'number' },
-    { key: 'movie_hour_length', type: 'number' },
-    { key: 'movie_minute_length', type: 'number' },
-  ]),
   auth,
   multer({ storage }).fields([{ name: 'image', maxCount: 1 }, { name: 'video', maxCount: 1 }]),
-  addMovie
+  addMovie,
 );
 
 router.get("/list", getMovies);
@@ -40,6 +34,22 @@ router.get("/categories", getCategories);
 
 router.get("/:id", getMovie);
 
-router.delete('/:id', adminAuth, deleteMovie);
+router.delete(
+  '/:id',
+  adminAuth,
+  deleteMovie,
+);
+  
+router.get(
+  "/favorite/:id", 
+  auth, 
+  addFavoriteMovie,
+);
 
+router.delete(
+  '/favorite/:id',
+  auth,
+  deleteFavoriteMovie,
+);
+  
 export default router;

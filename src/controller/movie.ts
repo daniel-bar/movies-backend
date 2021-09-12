@@ -4,7 +4,7 @@ import multer from "multer";
 
 import ServerGlobal from "../server-global";
 
-import { Movie } from "../model/shared/index";
+import { Movie, FavoriteMovies } from "../model/shared/index";
 
 import {
   IAddMovieRequest,
@@ -12,6 +12,8 @@ import {
   IGetMovieRequest,
   IGetCategoriesRequest,
   IDeleteMovieRequest,
+  IAddFavoriteMoviesRequest,
+  IDeleteFavoriteMovieRequest,
 } from "../model/express/request/movie";
 import {
   IAddMovieResponse,
@@ -19,6 +21,8 @@ import {
   IGetMovieResponse,
   IGetCategoriesResponse,
   IDeleteMovieResponse,
+  IAddFavoriteMoviesResponse,
+  IDeleteFavoriteMovieResponse,
 } from "../model/express/response/movie";
 
 const storage = multer.diskStorage({
@@ -129,7 +133,6 @@ const addMovie = async (req: IAddMovieRequest, res: IAddMovieResponse) => {
 const getMovies = async (req: IgetMoviesRequest, res: IgetMoviesResponse) => {
   ServerGlobal.getInstance().logger.info(`<getMovies>: Start processing request`);
 
-  console.log(req.query.category)
   try {
     let queryObj: Object = {};
 
@@ -137,6 +140,7 @@ const getMovies = async (req: IgetMoviesRequest, res: IgetMoviesResponse) => {
       queryObj = { where: { category: req.query.category } };
     }
 
+    // Get movies
     const movies = await Movie.findAll(queryObj);
 
     ServerGlobal.getInstance().logger.info(`<getMovies>: Successfully got the movies`);
@@ -176,6 +180,7 @@ const getMovie = async (req: IGetMovieRequest, res: IGetMovieResponse) => {
   );
 
   try {
+    // Get movie
     const movie = await Movie.findByPk(req.params.id);
 
     if (!movie) {
@@ -221,7 +226,7 @@ const getMovie = async (req: IGetMovieRequest, res: IGetMovieResponse) => {
       });
       return;
     }
-  };
+};
   
 const getCategories = async (req: IGetCategoriesRequest, res: IGetCategoriesResponse) => {
   ServerGlobal.getInstance().logger.info(
@@ -246,6 +251,7 @@ const deleteMovie = async (req: IDeleteMovieRequest, res: IDeleteMovieResponse) 
   );
 
   try {
+    // Get movie
     const movieId = await Movie.findByPk(req.params.id);
 
     if (!movieId) {
@@ -284,6 +290,130 @@ const deleteMovie = async (req: IDeleteMovieRequest, res: IDeleteMovieResponse) 
   }
 };
 
+const addFavoriteMovie = async (req: IAddFavoriteMoviesRequest, res: IAddFavoriteMoviesResponse) => {
+  ServerGlobal.getInstance().logger.info("<addFavoriteMovie>: Start processing request");
+
+  try {
+    // Validate provided user ID existence
+    if (!req.userId) {
+      ServerGlobal.getInstance().logger.error(
+        `<addFavoriteMovie>: Failed to find user with id ${req.userId}`
+      );
+
+      res.status(400).send({
+        success: false,
+        message: "Could not find user",
+      });
+      return;
+    }
+    
+    // Get movie by ID
+    const movieId = await Movie.findByPk(req.params.id);
+
+    // Validate provided movie ID existence
+    if (!movieId) {
+      ServerGlobal.getInstance().logger.error(
+        `<addFavoriteMovie>: Failed to find movie with id ${req.params.id}`
+      );
+
+      res.status(400).send({
+        success: false,
+        message: "Could not find movie",
+      });
+      return;
+    }
+
+    // Validate provided movie ID with favorite movies DB table for double prevention
+    const favoriteMovieId = await FavoriteMovies.findOne({ where: { movie_id: req.params.id } });
+
+    if (typeof favoriteMovieId?.movie_id === 'undefined') {
+      // Creating the favorite movie
+      const newFavoriteMovie = await FavoriteMovies.create({
+        movie_id: +req.params.id,
+        userId: +req.userId,
+      });
+
+      // Saving the favorite movie in DB
+      await newFavoriteMovie.save();
+
+      ServerGlobal.getInstance().logger.info(
+        `<addFavoriteMovie>: Successfully added favorite movie row with id: ${newFavoriteMovie.id}`
+      );
+
+      res.status(201).send({
+        success: true,
+        message: `Successfully created a new favorite movie row for user ID: ${req.userId}`,
+      });
+      return;
+    } else {
+      ServerGlobal.getInstance().logger.error(
+        `<addFavoriteMovie>: The movie is already in user favorite movies. movie id ${req.params.id}`
+      );
+
+      res.status(400).send({
+        success: false,
+        message: "The movie is already in user favorite movies",
+      });
+      return;
+    }
+  } catch (e) {
+    ServerGlobal.getInstance().logger.error(
+      `<addFavoriteMovie>: Failed to add favorite movie because of server error: ${e}`
+    );
+
+    res.status(500).send({
+      success: false,
+      message: "Server error",
+    });
+    return;
+  }
+};
+
+const deleteFavoriteMovie = async (req: IDeleteFavoriteMovieRequest, res: IDeleteFavoriteMovieResponse) => {
+  ServerGlobal.getInstance().logger.info(
+    `<deleteFavoriteMovie>: Start processing request with favorite movie id ${req.params.id}`
+  );
+
+  try {
+    // Get favorite movie
+    const favoriteMovieId = await FavoriteMovies.findByPk(req.params.id);
+
+    if (!favoriteMovieId) {
+      ServerGlobal.getInstance().logger.error(
+        `<deleteFavoriteMovie>: Failed to find favorite movie with id ${req.params.id}`
+      );
+
+      res.status(400).send({
+        success: false,
+        message: "Could not find favorite movie",
+      });
+      return;
+    }
+
+    await favoriteMovieId.destroy();
+
+    ServerGlobal.getInstance().logger.info(
+      `<deleteFavoriteMovie>: Successfully deleted favorite movie with ${req.params.id}`
+    );
+
+    res.status(200).send({
+      success: true,
+      message: "Successfully deleted favorite movie",
+    });
+    return;
+  } catch (e) {
+    ServerGlobal.getInstance().logger.error(
+      `<deleteFavoriteMovie>: Failed to delete favorite movie with id: ${req.params.id}. because of server error: ${e}`
+    );
+
+    res.status(500).send({
+      success: false,
+      message: "Server error",
+    });
+    return;
+  }
+};
+
 export {
   storage,
   addMovie,
@@ -291,4 +421,6 @@ export {
   getMovie,
   getCategories,
   deleteMovie,
+  addFavoriteMovie,
+  deleteFavoriteMovie,
 }

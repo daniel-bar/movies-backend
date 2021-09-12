@@ -1402,3 +1402,344 @@
 {"message":"<contact>: Successfully sent message from user with id 2","level":"info","timestamp":"2021-09-11T07:10:17.560Z"}
 {"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-11T21:02:10.750Z"}
 {"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-11T21:02:10.903Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T14:17:30.006Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T14:17:30.122Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T14:23:16.905Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T14:23:17.010Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T14:49:34.132Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T14:49:34.268Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T14:56:20.911Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T14:56:20.998Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:08:53.473Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:08:53.565Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:10:47.920Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:10:48.001Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:14:22.641Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:14:22.739Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:15:39.157Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:15:39.245Z"}
+{"message":"<login>: Start processing request with email: sorisorisori2133@gmail.com","level":"info","timestamp":"2021-09-12T15:17:42.770Z"}
+{"message":"<login>: Successfully logged user in with email: sorisorisori2133@gmail.com to user id: 2","level":"info","timestamp":"2021-09-12T15:17:42.830Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:18:46.835Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T15:18:46.844Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:18:46.845Z"}
+{"message":"<addFavoriteMovie>: Successfully added favorite movie with id: 1","level":"info","timestamp":"2021-09-12T15:18:46.865Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:19:06.119Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:19:06.198Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:26:30.555Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:26:30.647Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:26:46.221Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:26:46.314Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:26:51.656Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T15:26:51.669Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:26:51.671Z"}
+{"message":"<addFavoriteMovie>: Successfully added favorite movie with id: 2","level":"info","timestamp":"2021-09-12T15:26:51.694Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:29:32.469Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:29:32.559Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:32:53.644Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:32:53.734Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:36:19.800Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:36:19.890Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:39:55.063Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:39:55.146Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:40:10.961Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T15:40:10.978Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:40:10.979Z"}
+{"message":"<addFavoriteMovie>: The movie is already in user favorite movies. movie ID: 1","level":"error","timestamp":"2021-09-12T15:40:10.988Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:41:51.851Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:41:51.931Z"}
+{"message":"<getMovie>: Start processing request with movie Id favorite","level":"info","timestamp":"2021-09-12T15:41:59.604Z"}
+{"message":"<getMovie>: Failed to find movie with id favorite","level":"error","timestamp":"2021-09-12T15:41:59.613Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:42:14.050Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:42:14.153Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:42:14.170Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T15:42:14.178Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:42:14.180Z"}
+{"message":"<addFavoriteMovie>: The movie is already in user favorite movies. movie ID: 1","level":"error","timestamp":"2021-09-12T15:42:14.190Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:42:31.059Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T15:42:31.067Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:42:31.067Z"}
+{"message":"<addFavoriteMovie>: The movie is already in user favorite movies. movie ID: 1","level":"error","timestamp":"2021-09-12T15:42:31.071Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:42:50.269Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:42:50.360Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:42:53.984Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T15:42:53.994Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:42:53.995Z"}
+{"message":"<addFavoriteMovie>: The movie is already in user favorite movies. movie ID: 1","level":"error","timestamp":"2021-09-12T15:42:54.001Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:43:19.044Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:43:19.134Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:43:24.456Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:43:24.544Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:43:26.577Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T15:43:26.587Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:43:26.589Z"}
+{"message":"<addFavoriteMovie>: The movie is already in user favorite movies. movie ID: 1","level":"error","timestamp":"2021-09-12T15:43:26.601Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:43:36.796Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:43:36.876Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:43:38.989Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T15:43:39.000Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:43:39.001Z"}
+{"message":"<addFavoriteMovie>: The movie is already in user favorite movies. movie ID: 1","level":"error","timestamp":"2021-09-12T15:43:39.010Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:45:00.452Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T15:45:00.462Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:45:00.463Z"}
+{"message":"<addFavoriteMovie>: The movie is already in user favorite movies. movie ID: 1","level":"error","timestamp":"2021-09-12T15:45:00.469Z"}
+{"message":"Got a request for / but missed the body keys: title (string), description (string), category (string), release_date (number), movie_hour_length (number), movie_minute_length (number)","level":"error","timestamp":"2021-09-12T15:45:24.440Z"}
+{"message":"Got a request for / but missed the body keys: title (string), description (string), category (string), release_date (number), movie_hour_length (number), movie_minute_length (number)","level":"error","timestamp":"2021-09-12T15:46:26.365Z"}
+{"message":"Got a request for / but missed the body keys: title (string), description (string), category (string), release_date (number), movie_hour_length (number), movie_minute_length (number)","level":"error","timestamp":"2021-09-12T15:46:30.923Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:46:48.000Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:46:48.093Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:46:50.034Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-12T15:46:50.045Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:46:50.078Z"}
+{"message":"<addMovie>: Successfully added movie with id: 5","level":"info","timestamp":"2021-09-12T15:46:50.099Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:47:11.067Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:47:11.159Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:47:32.249Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T15:47:32.264Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:47:32.265Z"}
+{"message":"<addFavoriteMovie>: Failed to add movie because of server error: TypeError: Cannot set property 'movie_id' of null","level":"error","timestamp":"2021-09-12T15:47:32.274Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:48:15.678Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:48:15.774Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:48:50.066Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:48:50.146Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:48:53.047Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T15:48:53.059Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:48:53.060Z"}
+{"message":"<addFavoriteMovie>: Failed to add movie because of server error: TypeError: Cannot set property 'movie_id' of null","level":"error","timestamp":"2021-09-12T15:48:53.070Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:51:40.162Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:51:40.249Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:53:31.187Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:53:31.270Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:53:39.521Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:53:39.606Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:53:48.075Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T15:53:48.088Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:53:48.090Z"}
+{"message":"<addFavoriteMovie>: Successfully added favorite movie with id: 3","level":"info","timestamp":"2021-09-12T15:53:48.115Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:53:50.966Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T15:53:50.972Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:53:50.973Z"}
+{"message":"<addFavoriteMovie>: The movie is already in user favorite movies. movie id 5","level":"error","timestamp":"2021-09-12T15:53:50.980Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:54:05.354Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-12T15:54:05.360Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:54:05.392Z"}
+{"message":"<addMovie>: Successfully added movie with id: 6","level":"info","timestamp":"2021-09-12T15:54:05.402Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:54:21.939Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:54:22.033Z"}
+{"message":"<getMovie>: Start processing request with movie Id favorite","level":"info","timestamp":"2021-09-12T15:54:29.045Z"}
+{"message":"<getMovie>: Failed to find movie with id favorite","level":"error","timestamp":"2021-09-12T15:54:29.056Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:55:19.992Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:55:20.073Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:55:38.369Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T15:55:38.382Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:55:38.385Z"}
+{"message":"<addFavoriteMovie>: Successfully added favorite movie with id: 4","level":"info","timestamp":"2021-09-12T15:55:38.409Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:55:54.464Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:55:54.544Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:55:58.941Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T15:55:58.953Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:55:58.954Z"}
+{"message":"<addFavoriteMovie>: The movie is already in user favorite movies. movie id 6","level":"error","timestamp":"2021-09-12T15:55:58.961Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:56:04.323Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T15:56:04.328Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:56:04.329Z"}
+{"message":"<addFavoriteMovie>: The movie is already in user favorite movies. movie id 6","level":"error","timestamp":"2021-09-12T15:56:04.337Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:56:10.512Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T15:56:10.516Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:56:10.517Z"}
+{"message":"<addFavoriteMovie>: Failed to find movie with id 7","level":"error","timestamp":"2021-09-12T15:56:10.520Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:56:29.863Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-12T15:56:29.870Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:56:29.906Z"}
+{"message":"<addMovie>: Successfully added movie with id: 7","level":"info","timestamp":"2021-09-12T15:56:29.926Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:56:30.264Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-12T15:56:30.267Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:56:30.293Z"}
+{"message":"<addMovie>: Successfully added movie with id: 8","level":"info","timestamp":"2021-09-12T15:56:30.303Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:56:31.106Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-12T15:56:31.111Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:56:31.129Z"}
+{"message":"<addMovie>: Successfully added movie with id: 9","level":"info","timestamp":"2021-09-12T15:56:31.136Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:56:42.588Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T15:56:42.597Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:56:42.597Z"}
+{"message":"<addFavoriteMovie>: Successfully added favorite movie with id: 5","level":"info","timestamp":"2021-09-12T15:56:42.611Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:57:02.512Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:57:02.597Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:57:10.532Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:57:10.618Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:57:16.208Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T15:57:16.220Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:57:16.221Z"}
+{"message":"<addFavoriteMovie>: The movie is already in user favorite movies. movie id 7","level":"error","timestamp":"2021-09-12T15:57:16.229Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:57:20.030Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T15:57:20.037Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:57:20.038Z"}
+{"message":"<addFavoriteMovie>: Successfully added favorite movie with id: 6","level":"info","timestamp":"2021-09-12T15:57:20.064Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T15:58:15.685Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T15:58:15.776Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:58:22.930Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T15:58:22.939Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:58:22.942Z"}
+{"message":"<addFavoriteMovie>: The movie is already in user favorite movies. movie id 8","level":"error","timestamp":"2021-09-12T15:58:22.949Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:58:28.173Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T15:58:28.178Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:58:28.179Z"}
+{"message":"<addFavoriteMovie>: Successfully added favorite movie row with id: 7","level":"info","timestamp":"2021-09-12T15:58:28.199Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:58:37.683Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T15:58:37.689Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:58:37.690Z"}
+{"message":"<addFavoriteMovie>: The movie is already in user favorite movies. movie id 9","level":"error","timestamp":"2021-09-12T15:58:37.697Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:58:43.242Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-12T15:58:43.245Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:58:43.283Z"}
+{"message":"<addMovie>: Successfully added movie with id: 10","level":"info","timestamp":"2021-09-12T15:58:43.294Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T15:58:49.413Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T15:58:49.417Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T15:58:49.417Z"}
+{"message":"<addFavoriteMovie>: Successfully added favorite movie row with id: 8","level":"info","timestamp":"2021-09-12T15:58:49.431Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T16:00:14.161Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T16:00:14.252Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T16:00:20.955Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T16:00:21.037Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T16:00:27.482Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T16:00:27.572Z"}
+{"message":"<getMovie>: Start processing request with movie Id favorite","level":"info","timestamp":"2021-09-12T16:00:36.798Z"}
+{"message":"<getMovie>: Failed to find movie with id favorite","level":"error","timestamp":"2021-09-12T16:00:36.809Z"}
+{"message":"<getMovie>: Start processing request with movie Id favorite","level":"info","timestamp":"2021-09-12T16:00:57.368Z"}
+{"message":"<getMovie>: Failed to find movie with id favorite","level":"error","timestamp":"2021-09-12T16:00:57.374Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T16:01:43.022Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T16:01:43.098Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T16:01:53.706Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T16:01:53.799Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T16:01:56.947Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T16:01:56.960Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T16:01:56.961Z"}
+{"message":"<addFavoriteMovie>: Failed to find movie with id undefined","level":"error","timestamp":"2021-09-12T16:01:56.962Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T16:02:24.958Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T16:02:24.966Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T16:02:24.967Z"}
+{"message":"<addFavoriteMovie>: The movie is already in user favorite movies. movie id 8","level":"error","timestamp":"2021-09-12T16:02:24.977Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T16:02:31.891Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T16:02:31.895Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T16:02:31.896Z"}
+{"message":"<addFavoriteMovie>: The movie is already in user favorite movies. movie id 10","level":"error","timestamp":"2021-09-12T16:02:31.904Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T16:02:47.005Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T16:02:47.100Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T16:03:14.777Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-12T16:03:14.789Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-12T16:03:14.824Z"}
+{"message":"<addMovie>: Successfully added movie with id: 11","level":"info","timestamp":"2021-09-12T16:03:14.844Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T16:03:15.367Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-12T16:03:15.370Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-12T16:03:15.396Z"}
+{"message":"<addMovie>: Successfully added movie with id: 12","level":"info","timestamp":"2021-09-12T16:03:15.402Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T16:03:16.231Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-12T16:03:16.235Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-12T16:03:16.250Z"}
+{"message":"<addMovie>: Successfully added movie with id: 13","level":"info","timestamp":"2021-09-12T16:03:16.257Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T16:03:16.856Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-12T16:03:16.861Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-12T16:03:16.876Z"}
+{"message":"<addMovie>: Successfully added movie with id: 14","level":"info","timestamp":"2021-09-12T16:03:16.884Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T16:03:17.616Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-12T16:03:17.619Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-12T16:03:17.636Z"}
+{"message":"<addMovie>: Successfully added movie with id: 15","level":"info","timestamp":"2021-09-12T16:03:17.643Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T16:03:23.959Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T16:03:23.962Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T16:03:23.963Z"}
+{"message":"<addFavoriteMovie>: Successfully added favorite movie row with id: 9","level":"info","timestamp":"2021-09-12T16:03:23.977Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T16:03:27.780Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T16:03:27.784Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T16:03:27.784Z"}
+{"message":"<addFavoriteMovie>: The movie is already in user favorite movies. movie id 11","level":"error","timestamp":"2021-09-12T16:03:27.792Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T16:03:32.219Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T16:03:32.222Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T16:03:32.223Z"}
+{"message":"<addFavoriteMovie>: Successfully added favorite movie row with id: 10","level":"info","timestamp":"2021-09-12T16:03:32.235Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T16:04:03.022Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T16:04:03.114Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T16:06:11.259Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T16:06:11.358Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T16:06:15.608Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T16:06:15.693Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T16:09:17.040Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T16:09:17.134Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T16:10:11.061Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T16:10:11.150Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T16:10:32.523Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T16:10:32.608Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T16:11:06.293Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T16:11:06.386Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T16:11:27.404Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T16:11:27.490Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T16:12:19.602Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T16:12:19.687Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T16:12:59.167Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T16:12:59.251Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T16:13:09.337Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T16:13:09.422Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T16:13:18.127Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T16:13:18.140Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T16:13:18.141Z"}
+{"message":"<addFavoriteMovie>: Successfully added favorite movie row with id: 11","level":"info","timestamp":"2021-09-12T16:13:18.171Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T16:13:19.533Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T16:13:19.538Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T16:13:19.539Z"}
+{"message":"<addFavoriteMovie>: Successfully added favorite movie row with id: 12","level":"info","timestamp":"2021-09-12T16:13:19.557Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T16:13:27.205Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T16:13:27.210Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T16:13:27.211Z"}
+{"message":"<addFavoriteMovie>: Failed to find movie with id 17","level":"error","timestamp":"2021-09-12T16:13:27.215Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T16:13:30.868Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T16:13:30.871Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T16:13:30.871Z"}
+{"message":"<addFavoriteMovie>: Successfully added favorite movie row with id: 13","level":"info","timestamp":"2021-09-12T16:13:30.887Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T16:13:31.849Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T16:13:31.852Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T16:13:31.853Z"}
+{"message":"<addFavoriteMovie>: Successfully added favorite movie row with id: 14","level":"info","timestamp":"2021-09-12T16:13:31.867Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T16:14:47.650Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T16:14:47.747Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T16:14:52.408Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T16:14:52.420Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T16:14:52.421Z"}
+{"message":"<addFavoriteMovie>: The movie is already in user favorite movies. movie id 15","level":"error","timestamp":"2021-09-12T16:14:52.427Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T16:14:56.867Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T16:14:56.872Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T16:14:56.872Z"}
+{"message":"<addFavoriteMovie>: Failed to find movie with id 16","level":"error","timestamp":"2021-09-12T16:14:56.876Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T16:15:00.206Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 1","level":"info","timestamp":"2021-09-12T16:15:00.213Z"}
+{"message":"<addMovie>: Start processing request","level":"info","timestamp":"2021-09-12T16:15:00.251Z"}
+{"message":"<addMovie>: Successfully added movie with id: 16","level":"info","timestamp":"2021-09-12T16:15:00.269Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T16:15:03.722Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T16:15:03.727Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T16:15:03.728Z"}
+{"message":"<addFavoriteMovie>: Successfully added favorite movie row with id: 15","level":"info","timestamp":"2021-09-12T16:15:03.741Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T16:15:04.535Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T16:15:04.538Z"}
+{"message":"<addFavoriteMovie>: Start processing request","level":"info","timestamp":"2021-09-12T16:15:04.539Z"}
+{"message":"<addFavoriteMovie>: The movie is already in user favorite movies. movie id 16","level":"error","timestamp":"2021-09-12T16:15:04.547Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T16:16:04.763Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T16:16:04.851Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T16:16:32.254Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T16:16:32.340Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T16:18:34.740Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T16:18:34.824Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T16:18:36.472Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T16:18:36.484Z"}
+{"message":"<deleteFavoriteMovie>: Start processing request with favorite movie id 3","level":"info","timestamp":"2021-09-12T16:18:36.485Z"}
+{"message":"<deleteFavoriteMovie>: Successfully deleted favorite movie with 3","level":"info","timestamp":"2021-09-12T16:18:36.493Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T16:18:48.920Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T16:18:48.928Z"}
+{"message":"<deleteFavoriteMovie>: Start processing request with favorite movie id 15","level":"info","timestamp":"2021-09-12T16:18:48.929Z"}
+{"message":"<deleteFavoriteMovie>: Successfully deleted favorite movie with 15","level":"info","timestamp":"2021-09-12T16:18:48.937Z"}
+{"message":"[auth middleware]: Start processing request","level":"info","timestamp":"2021-09-12T16:18:51.030Z"}
+{"message":"[auth middleware]: Successfully authenticated user with id 2","level":"info","timestamp":"2021-09-12T16:18:51.034Z"}
+{"message":"<deleteFavoriteMovie>: Start processing request with favorite movie id 15","level":"info","timestamp":"2021-09-12T16:18:51.035Z"}
+{"message":"<deleteFavoriteMovie>: Failed to find favorite movie with id 15","level":"error","timestamp":"2021-09-12T16:18:51.037Z"}
+{"message":"Server is running on port 3000","level":"info","timestamp":"2021-09-12T16:19:27.525Z"}
+{"message":"MySQL database connection done successfully","level":"info","timestamp":"2021-09-12T16:19:27.615Z"}

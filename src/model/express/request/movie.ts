@@ -1,5 +1,7 @@
 import express from "express";
 
+import { IAuthenticatedRequest } from "./auth";
+
 import { MovieCategory } from '../../../server-global';
 
 interface IAddMovieRequest extends express.Request {
@@ -20,7 +22,7 @@ interface IgetMoviesRequest extends express.Request {
 }
 
 interface IGetMovieRequest extends express.Request {
-  readonly body: Readonly<{ id: string }>;
+  readonly params: Readonly<{ id: string }>;
 }
 
 interface IGetCategoriesRequest extends express.Request {}
@@ -29,10 +31,21 @@ interface IDeleteMovieRequest extends express.Request {
   readonly params: Readonly<{ id: string }>;
 }
 
+interface IAddFavoriteMoviesRequest extends IAuthenticatedRequest {
+  readonly params: Readonly<{ id: string }>;
+}
+
+interface IDeleteFavoriteMovieRequest extends express.Request {
+  readonly params: Readonly<{ id: string }>;
+}
+
+
 export {
   IAddMovieRequest,
   IgetMoviesRequest,
   IGetMovieRequest,
   IGetCategoriesRequest,
   IDeleteMovieRequest,
+  IAddFavoriteMoviesRequest,
+  IDeleteFavoriteMovieRequest,
 }
