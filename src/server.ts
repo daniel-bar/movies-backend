@@ -5,7 +5,7 @@ import app from './app';
 import ServerGlobal from './server-global';
 
 import { dbConfig } from './model/shared';
-import { User, Token, FavoriteMovies } from './model/shared/index';
+import { User, Token, FavoriteMovies, Movie } from './model/shared/index';
 
 const debug = Debug('node-angular');
 
@@ -62,10 +62,28 @@ server.on('error', onError);
 server.on('listening', onListening);
 server.listen(port);
 
-FavoriteMovies.belongsTo(User, { constraints: true, onDelete: 'CASCADE' });
-Token.belongsTo(User, { constraints: true, onDelete: 'CASCADE' });
 
-dbConfig.sync()
+User.belongsToMany(Movie, {
+  through: {
+    model: FavoriteMovies,
+    unique: false,
+  },
+  foreignKey: 'user_id',
+  constraints: true,
+  onDelete: 'CASCADE',
+});
+
+Movie.belongsToMany(User, {
+  through: {
+    model: FavoriteMovies,
+    unique: false,
+  },
+  foreignKey: 'movie_id',
+  constraints: true,
+  onDelete: 'CASCADE',
+});
+
+dbConfig.sync({ force: true })
     .then(() => {
         ServerGlobal.getInstance().logger.info('MySQL database connection done successfully');
     })

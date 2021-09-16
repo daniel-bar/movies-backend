@@ -25,4 +25,7 @@ const TokenFactory = (sequelize: Sequelize): TokenStatic => {
   });
 }
 
+
+// Token.belongsTo(User, { constraints: true, onDelete: 'CASCADE' });
+
 export { TokenFactory }

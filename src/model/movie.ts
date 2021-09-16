@@ -63,6 +63,14 @@ const MovieFactory = (sequelize: Sequelize): MovieStatic => {
       type: DataTypes.STRING,
       allowNull: false,
     },
+  },
+  {
+    indexes: [{
+      fields: ['title'],
+    },
+    {
+      fields: ['category'],
+    }],
   });
 }
 

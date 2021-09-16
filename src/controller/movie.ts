@@ -414,6 +414,8 @@ const deleteFavoriteMovie = async (req: IDeleteFavoriteMovieRequest, res: IDelet
   }
 };
 
+// GET FAVE MOVIES
+
 export {
   storage,
   addMovie,
