@@ -26,7 +26,7 @@ interface IDBUserAttributes extends IDBAttribute {
 
 interface IDBFavoriteMoviesAttributes extends IDBAttribute {
     movie_id: number;
-    userId: number
+    userId: number;
 }
 
 interface IDBTokenAttributes extends IDBAttribute {

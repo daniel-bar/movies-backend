@@ -2,7 +2,7 @@ import { BuildOptions, DataTypes, Model, Optional, Sequelize } from "sequelize";
 
 import { IDBFavoriteMoviesAttributes } from "./shared/db-table";
 
-interface FavoriteMoviesModel extends Model<Optional<IDBFavoriteMoviesAttributes, 'id' | 'updatedAt' | 'createdAt'>>, IDBFavoriteMoviesAttributes {}
+interface FavoriteMoviesModel extends Model<Optional<IDBFavoriteMoviesAttributes, 'movie_id' | 'id' | 'updatedAt' | 'createdAt'>>, IDBFavoriteMoviesAttributes {}
 
 type FavoriteMoviesStatic = typeof Model & {
   new (values?: object, options?: BuildOptions): FavoriteMoviesModel;

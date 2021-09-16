@@ -15,7 +15,7 @@ interface IAddMovieRequest extends express.Request {
   }>;
 }
 
-interface IgetMoviesRequest extends express.Request {
+interface IGetMoviesRequest extends express.Request {
   readonly query: Readonly<{
     category?: string;
   }>;
@@ -39,13 +39,15 @@ interface IDeleteFavoriteMovieRequest extends express.Request {
   readonly params: Readonly<{ id: string }>;
 }
 
+interface IGetFavoriteMoviesRequest extends IAuthenticatedRequest { }
 
 export {
   IAddMovieRequest,
-  IgetMoviesRequest,
+  IGetMoviesRequest,
   IGetMovieRequest,
   IGetCategoriesRequest,
   IDeleteMovieRequest,
   IAddFavoriteMoviesRequest,
   IDeleteFavoriteMovieRequest,
+  IGetFavoriteMoviesRequest,
 }
