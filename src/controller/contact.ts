@@ -50,8 +50,6 @@ becuase provided message is of invalid length`);
             pass: process.env.ADMIN_EMAIL_PASSWORD,
         },
     });
-    console.log(process.env.ADMIN_EMAIL_PASSWORD,)
-    console.log(process.env.ADMIN_EMAIL,)
 
     try {
         await transporter.sendMail({
@@ -71,7 +69,6 @@ becuase provided message is of invalid length`);
         });
         return;
     } catch (e) {
-        console.log(e)
         ServerGlobal.getInstance().logger.error(
             `<contant>: Failed to sent message with user id ${req.user_id} because of server error: ${e}`
         );

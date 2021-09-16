@@ -330,18 +330,14 @@ const addFavoriteMovie = async (req: IAddFavoriteMoviesRequest, res: IAddFavorit
 
     // Finding favorite movie
     const favoriteMovie = await FavoriteMovies.findOne({ where: { user_id: req.user_id, movie_id: req.params.id }});
-    console.log(favoriteMovie)
     
     // Validate provided movie ID and user ID with favorite movies DB table for double prevention
     if (favoriteMovie == null) {
       // Creating the favorite movie
-      console.log(1)
-      console.log(req.params.id, req.user_id)
       const newFavoriteMovie = await FavoriteMovies.create({
         movie_id: +req.params.id,
         user_id: +req.user_id,
       });
-      console.log(1)
       
       // Incrementing 1 like to like count and saving movie DB model
       movieId.like_count++;
