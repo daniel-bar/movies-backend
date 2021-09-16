@@ -21,10 +21,6 @@ const FavoriteMoviesFactory = (sequelize: Sequelize): FavoriteMoviesStatic => {
       type: DataTypes.INTEGER.UNSIGNED,
       allowNull: false,
     },
-    user_id: {
-      type: DataTypes.INTEGER.UNSIGNED,
-      allowNull: false,
-    },
   },
   {
     indexes: [{

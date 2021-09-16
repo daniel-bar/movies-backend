@@ -101,7 +101,7 @@ const register = async (req: IRegisterRequest, res: IRegisterResponse) => {
 
     await Token.create({
       token: newToken,
-      userId: newUser.id
+      user_id: newUser.id
     });
 
     ServerGlobal.getInstance().logger.info(
@@ -173,7 +173,7 @@ with email ${req.body.email}`
     }
 
     // Finding user token 
-    const tokenByUserId = await Token.findOne({ where: { userId: userByEmail.id } });
+    const tokenByUserId = await Token.findOne({ where: { user_id: userByEmail.id } });
 
     // Create new token to insert
     let newToken = jwt.sign({ id: userByEmail.id }, process.env.JWT_PWD, {
@@ -196,9 +196,6 @@ with email ${req.body.email}`
     
     // Saving the token document in DB
     await tokenByUserId.save();
-    
-    // Saving the user document in DB
-    await userByEmail.save();
 
     ServerGlobal.getInstance().logger.info(
       `<login>: Successfully logged user in \
@@ -240,7 +237,7 @@ const autoLogin = async (req: IAutoLoginRequest, res: IAutoLoginResponse) => {
   }
 
   let user: Pick<UserModel, 'email' | 'username'> | null;
-  let userId: string;
+  let user_id: string;
 
   // Authorizing the user
   try {
@@ -265,7 +262,7 @@ const autoLogin = async (req: IAutoLoginRequest, res: IAutoLoginResponse) => {
       return;
     }
 
-    userId = data.id;
+    user_id = data.id;
   } catch (e) {
     ServerGlobal.getInstance().logger.error(
       `<autoLogin>: Failed to auto login because of login error: ${e}`
@@ -279,7 +276,7 @@ const autoLogin = async (req: IAutoLoginRequest, res: IAutoLoginResponse) => {
   }
 
   ServerGlobal.getInstance().logger.info(
-    `<autoLogin>: Successfully auto login user with id ${userId}`
+    `<autoLogin>: Successfully auto login user with id ${user_id}`
   );
 
   res.status(200).send({
@@ -295,7 +292,7 @@ const autoLogin = async (req: IAutoLoginRequest, res: IAutoLoginResponse) => {
 
 const editProfile = async (req: IEditProfileRequest, res: IEditProfileResponse) => {
   ServerGlobal.getInstance().logger.info(
-    `<editProfile>: Start processing request with user id ${req.userId}`
+    `<editProfile>: Start processing request with user id ${req.user_id}`
   );
 
   // Check whether provided fields are valid
@@ -312,11 +309,11 @@ const editProfile = async (req: IEditProfileRequest, res: IEditProfileResponse) 
 
   try {
     // Find the user
-    const userByID = await User.findByPk(req.userId);
+    const userByID = await User.findByPk(req.user_id);
 
     if (!userByID) {
       ServerGlobal.getInstance().logger.error(
-        `<editProfile>: Failed to get user details for user id ${req.userId}`
+        `<editProfile>: Failed to get user details for user id ${req.user_id}`
       );
 
       res.status(401).send({
@@ -335,7 +332,7 @@ const editProfile = async (req: IEditProfileRequest, res: IEditProfileResponse) 
     if (!compareResult) {
       ServerGlobal.getInstance().logger.error(
         `<editProfile>: Failed to edit profile because \
-provided password mismatches for user id ${req.userId}`
+provided password mismatches for user id ${req.user_id}`
       );
 
       res.status(400).send({
@@ -360,7 +357,7 @@ provided password mismatches for user id ${req.userId}`
     await userByID.save();
 
     ServerGlobal.getInstance().logger.info(
-      `<editProfile>: Successfully edited user profile with id ${req.userId}`
+      `<editProfile>: Successfully edited user profile with id ${req.user_id}`
     );
 
     res.status(200).send({

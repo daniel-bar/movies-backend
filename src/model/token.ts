@@ -22,10 +22,12 @@ const TokenFactory = (sequelize: Sequelize): TokenStatic => {
       allowNull: false,
       unique: true,
     },
+  },
+  {
+    indexes: [{
+      fields: ['user_id'],
+    }],
   });
 }
-
-
-// Token.belongsTo(User, { constraints: true, onDelete: 'CASCADE' });
 
 export { TokenFactory }

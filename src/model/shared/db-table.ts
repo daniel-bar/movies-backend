@@ -26,12 +26,12 @@ interface IDBUserAttributes extends IDBAttribute {
 
 interface IDBFavoriteMoviesAttributes extends IDBAttribute {
     movie_id: number;
-    userId: number;
+    user_id: number;
 }
 
 interface IDBTokenAttributes extends IDBAttribute {
     token: string;
-    userId: number;
+    user_id: number;
 }
 
 export {

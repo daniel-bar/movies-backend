@@ -17,6 +17,7 @@ import {
   deleteMovie,
   addFavoriteMovie,
   deleteFavoriteMovie,
+  getFavoriteMovies,
 } from "../controller/movie";
 
 const router = express.Router();
@@ -51,5 +52,11 @@ router.delete(
   auth,
   deleteFavoriteMovie,
 );
+
+router.get(
+  '/favoriteMovies',
+  auth,
+  getFavoriteMovies,
+)
   
 export default router;

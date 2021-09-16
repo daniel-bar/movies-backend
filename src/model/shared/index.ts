@@ -5,7 +5,6 @@ import { MovieFactory } from '../movie';
 import { FavoriteMoviesFactory } from '../favoriteMovies';
 import { TokenFactory } from '../token';
 
-
 const instantiateObj = {
     database: process.env.MYSQL_DB_NAME,
     username: process.env.MYSQL_USER,

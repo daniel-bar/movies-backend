@@ -1,5 +1,7 @@
 import { BuildOptions, DataTypes, Model, Optional, Sequelize } from "sequelize";
 
+import { User, Movie, FavoriteMovies } from "./shared/index";
+
 import { IDBUserAttributes } from "./shared/db-table";
 
 interface UserModel extends Model<Optional<IDBUserAttributes, 'id' | 'updatedAt' | 'createdAt'>>, IDBUserAttributes { }

@@ -27,7 +27,7 @@ const auth = async (req: IAuthMiddlewareRequest, res: IAuthMiddlewareResponse, n
 
     let data: IVerify;
     let userDocument: Readonly<Omit<UserModel, 'id'>> | null;
-    let userId: string;
+    let user_id: string;
 
     try {
         const token = (req.header('Authorization') as string).replace('Bearer ', '');
@@ -48,7 +48,7 @@ because could not find user with id ${data.id}`
             return;
         }
 
-        userId = data.id;
+        user_id = data.id;
     } catch (e: any) {
         ServerGlobal.getInstance().logger.error(
             `[auth middleware]: Failed to authenticate because of error: ${e}`
@@ -70,10 +70,10 @@ because could not find user with id ${data.id}`
     }
 
     ServerGlobal.getInstance().logger.info(
-        `[auth middleware]: Successfully authenticated user with id ${userId}`
+        `[auth middleware]: Successfully authenticated user with id ${user_id}`
     );
 
-    req.userId = userId;
+    req.user_id = user_id;
 
     next();
 }

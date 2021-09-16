@@ -297,9 +297,9 @@ const addFavoriteMovie = async (req: IAddFavoriteMoviesRequest, res: IAddFavorit
 
   try {
     // Validate provided user ID existence
-    if (!req.userId) {
+    if (!req.user_id) {
       ServerGlobal.getInstance().logger.error(
-        `<addFavoriteMovie>: Failed to find user with id ${req.userId}`
+        `<addFavoriteMovie>: Failed to find user with id ${req.user_id}`
       );
 
       res.status(400).send({
@@ -332,7 +332,7 @@ const addFavoriteMovie = async (req: IAddFavoriteMoviesRequest, res: IAddFavorit
       // Creating the favorite movie
       const newFavoriteMovie = await FavoriteMovies.create({
         movie_id: +req.params.id,
-        userId: +req.userId,
+        user_id: +req.user_id,
       });
 
       // Saving the favorite movie in DB
@@ -344,7 +344,7 @@ const addFavoriteMovie = async (req: IAddFavoriteMoviesRequest, res: IAddFavorit
 
       res.status(201).send({
         success: true,
-        message: `Successfully created a new favorite movie row for user ID: ${req.userId}`,
+        message: `Successfully created a new favorite movie row for user ID: ${req.user_id}`,
       });
       return;
     } else {
@@ -420,24 +420,24 @@ const getFavoriteMovies = async (req: IGetFavoriteMoviesRequest, res: IGetFavori
   ServerGlobal.getInstance().logger.info(`<getFavoriteMovies>: Start processing request`);
 
   try {
-    if (!req.userId) {
+    if (!req.user_id) {
       ServerGlobal.getInstance().logger.error(
-        `<getFavoriteMovies>: Failed to find user with id ${req.userId}`
+        `<getFavoriteMovies>: Failed to find user with id ${req.user_id}`
         );
         
         res.status(400).send({
           success: false,
-          message: "Could not find movie",
+          message: "Could not find user",
         });
         return;
       }
       
     // Get favorite movies
-    const favoriteMovies = await FavoriteMovies.findAll({ where: { userId: req.userId } });
+    const favoriteMovies = await FavoriteMovies.findAll({ where: { user_id: req.user_id } });
 
     if (favoriteMovies.length === 0) {
       ServerGlobal.getInstance().logger.error(
-        `<getFavoriteMovies>: Failed to find favorite movies for user with id ${req.userId}`
+        `<getFavoriteMovies>: Failed to find favorite movies for user with id ${req.user_id}`
         );
         
         res.status(400).send({
@@ -454,7 +454,7 @@ const getFavoriteMovies = async (req: IGetFavoriteMoviesRequest, res: IGetFavori
 
     if (favoriteMovieIds.length === 0) {
       ServerGlobal.getInstance().logger.error(
-        `<getFavoriteMovies>: Failed to find favorite movie id's for user with id ${req.userId}`
+        `<getFavoriteMovies>: Failed to find favorite movie id's for user with id ${req.user_id}`
         );
         
         res.status(400).send({
@@ -470,7 +470,7 @@ const getFavoriteMovies = async (req: IGetFavoriteMoviesRequest, res: IGetFavori
 
     if (!movies) {
       ServerGlobal.getInstance().logger.error(
-        `<getFavoriteMovies>: Failed to find movies for user with id ${req.userId}`
+        `<getFavoriteMovies>: Failed to find movies for user with id ${req.user_id}`
         );
         
         res.status(400).send({

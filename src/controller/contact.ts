@@ -13,14 +13,14 @@ import {
 
 const contact = async (req: IContantRequest, res: IContantResponse) => {
     ServerGlobal.getInstance().logger.info(
-        `<contant>: Start processing request with user id: ${req.userId}`
+        `<contant>: Start processing request with user id: ${req.user_id}`
     );
 
     const topicLabel = ServerGlobal.getInstance().getContactTopicLabel(req.body.topic);
 
     if (!topicLabel) {
         ServerGlobal.getInstance().logger.error(
-            `<contant>: Failed to send contact message of user with id ${req.userId} \
+            `<contant>: Failed to send contact message of user with id ${req.user_id} \
 becuase provided topic is invalid`);
 
         res.status(400).send({
@@ -33,7 +33,7 @@ becuase provided topic is invalid`);
     // Validate client provided message of valid length
     if (req.body.message.length < 3 || req.body.message.length > 1000) {
         ServerGlobal.getInstance().logger.error(
-            `<contant>: Failed to send contact message of user with id ${req.userId} \
+            `<contant>: Failed to send contact message of user with id ${req.user_id} \
 becuase provided message is of invalid length`);
 
         res.status(400).send({
@@ -62,7 +62,7 @@ becuase provided message is of invalid length`);
         });
 
         ServerGlobal.getInstance().logger.info(
-            `<contact>: Successfully sent message from user with id ${req.userId}`
+            `<contact>: Successfully sent message from user with id ${req.user_id}`
         );
 
         res.status(200).send({
@@ -73,7 +73,7 @@ becuase provided message is of invalid length`);
     } catch (e) {
         console.log(e)
         ServerGlobal.getInstance().logger.error(
-            `<contant>: Failed to sent message with user id ${req.userId} because of server error: ${e}`
+            `<contant>: Failed to sent message with user id ${req.user_id} because of server error: ${e}`
         );
 
         res.status(500).send({

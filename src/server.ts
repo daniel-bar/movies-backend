@@ -7,6 +7,7 @@ import ServerGlobal from './server-global';
 import { dbConfig } from './model/shared';
 import { User, Token, FavoriteMovies, Movie } from './model/shared/index';
 
+
 const debug = Debug('node-angular');
 
 const normalizePort = (val: string) => {
@@ -62,23 +63,28 @@ server.on('error', onError);
 server.on('listening', onListening);
 server.listen(port);
 
-
-User.belongsToMany(Movie, {
-  through: {
-    model: FavoriteMovies,
-    unique: false,
-  },
-  foreignKey: 'user_id',
-  constraints: true,
-  onDelete: 'CASCADE',
-});
-
 Movie.belongsToMany(User, {
   through: {
     model: FavoriteMovies,
     unique: false,
   },
   foreignKey: 'movie_id',
+  constraints: true,
+  onDelete: 'CASCADE',
+});
+
+User.belongsToMany(Movie, {
+    through: {
+        model: FavoriteMovies,
+        unique: false,
+    },
+    foreignKey: 'user_id',
+    constraints: true,
+    onDelete: 'CASCADE',
+});
+
+Token.belongsTo(User, {
+  foreignKey: 'user_id',
   constraints: true,
   onDelete: 'CASCADE',
 });
