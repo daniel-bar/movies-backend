@@ -63,6 +63,11 @@ const MovieFactory = (sequelize: Sequelize): MovieStatic => {
       type: DataTypes.STRING,
       allowNull: false,
     },
+    like_count: {
+      type: DataTypes.INTEGER.UNSIGNED,
+      allowNull: false,
+      defaultValue: 0,
+    }
   },
   {
     indexes: [{

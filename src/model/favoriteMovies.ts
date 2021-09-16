@@ -23,11 +23,18 @@ const FavoriteMoviesFactory = (sequelize: Sequelize): FavoriteMoviesStatic => {
     },
   },
   {
-    indexes: [{
-      fields: ['movie_id', 'user_id'],
-      unique: true,
-    }],
+    indexes: [
+      {
+        name: 'favorite_movies_user_id_movie_id_index',
+        using: 'BTREE',
+        fields: [
+          'user_id',
+          'movie_id',
+        ],
+        unique: true,
+      },
+    ],
   });
 }
 
-export { FavoriteMoviesFactory }
+export { FavoriteMoviesFactory };

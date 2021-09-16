@@ -18,6 +18,7 @@ type IGetMoviesResponse = express.Response<
             movie_minute_length: number;
             image_path: string;
             video_path: string;
+            like_count: number;
         }[];
     }
 >;
@@ -34,6 +35,7 @@ type IGetMovieResponse = express.Response<
             movie_minute_length: number;
             image_path: string;
             video_path: string;
+            like_count: number;
         };
     }
 >;
@@ -64,6 +66,7 @@ type IGetFavoriteMoviesResponse = express.Response<
             movie_minute_length: number;
             image_path: string;
             video_path: string;
+            like_count: number;
         }[];
     }
 >;

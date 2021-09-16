@@ -16,6 +16,7 @@ interface IDBMoviesAttributes extends IDBAttribute {
     readonly movie_minute_length: number;
     readonly image_path: string;
     readonly video_path: string;
+    like_count: number;
 }
 
 interface IDBUserAttributes extends IDBAttribute {

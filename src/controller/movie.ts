@@ -103,6 +103,7 @@ const addMovie = async (req: IAddMovieRequest, res: IAddMovieResponse) => {
       release_date: req.body.release_date,
       movie_hour_length: req.body.movie_hour_length,
       movie_minute_length: req.body.movie_minute_length,
+      like_count: req.body.like_count,
       image_path: url + '/image/' + (req as any).files.image[0].filename,
       video_path: url + '/video/' + (req as any).files.video[0].filename,
     });
@@ -160,6 +161,7 @@ const getMovies = async (req: IGetMoviesRequest, res: IGetMoviesResponse) => {
         movie_minute_length: movie.movie_minute_length,
         image_path: movie.image_path,
         video_path: movie.video_path,
+        like_count: movie.like_count,
       })),
     });
     return;
@@ -214,6 +216,7 @@ const getMovie = async (req: IGetMovieRequest, res: IGetMovieResponse) => {
         movie_minute_length: movie.movie_minute_length,
         image_path: movie.image_path,
         video_path: movie.video_path,
+        like_count: movie.like_count,
       },
     });
     return;
@@ -325,15 +328,24 @@ const addFavoriteMovie = async (req: IAddFavoriteMoviesRequest, res: IAddFavorit
       return;
     }
 
-    // Validate provided movie ID with favorite movies DB table for double prevention
-    const favoriteMovieId = await FavoriteMovies.findOne({ where: { movie_id: req.params.id } });
-
-    if (typeof favoriteMovieId?.movie_id === 'undefined') {
+    // Finding favorite movie
+    const favoriteMovie = await FavoriteMovies.findOne({ where: { user_id: req.user_id, movie_id: req.params.id }});
+    console.log(favoriteMovie)
+    
+    // Validate provided movie ID and user ID with favorite movies DB table for double prevention
+    if (favoriteMovie == null) {
       // Creating the favorite movie
+      console.log(1)
+      console.log(req.params.id, req.user_id)
       const newFavoriteMovie = await FavoriteMovies.create({
         movie_id: +req.params.id,
         user_id: +req.user_id,
       });
+      console.log(1)
+      
+      // Incrementing 1 like to like count and saving movie DB model
+      movieId.like_count++;
+      await movieId.save();
 
       // Saving the favorite movie in DB
       await newFavoriteMovie.save();
@@ -349,12 +361,12 @@ const addFavoriteMovie = async (req: IAddFavoriteMoviesRequest, res: IAddFavorit
       return;
     } else {
       ServerGlobal.getInstance().logger.error(
-        `<addFavoriteMovie>: The movie is already in user favorite movies. movie id ${req.params.id}`
+        `<addFavoriteMovie>: Movie with ID: ${req.params.id} is already in favorites for user ID: ${req.user_id}`
       );
 
       res.status(400).send({
         success: false,
-        message: "The movie is already in user favorite movies",
+        message: "Movie is already in favorites",
       });
       return;
     }
@@ -378,7 +390,7 @@ const deleteFavoriteMovie = async (req: IDeleteFavoriteMovieRequest, res: IDelet
 
   try {
     // Get favorite movie
-    const favoriteMovieId = await FavoriteMovies.findByPk(req.params.id);
+    const favoriteMovieId = await FavoriteMovies.findOne({ where: { user_id: req.user_id, movie_id: req.params.id } });
 
     if (!favoriteMovieId) {
       ServerGlobal.getInstance().logger.error(
@@ -391,6 +403,26 @@ const deleteFavoriteMovie = async (req: IDeleteFavoriteMovieRequest, res: IDelet
       });
       return;
     }
+
+    // Get movie by ID
+    const movieId = await Movie.findByPk(req.params.id);
+
+    // Validate provided movie ID existence
+    if (!movieId) {
+      ServerGlobal.getInstance().logger.error(
+        `<addFavoriteMovie>: Failed to find movie with id ${req.params.id}`
+      );
+
+      res.status(400).send({
+        success: false,
+        message: "Could not find movie",
+      });
+      return;
+    }
+
+    // Decrement 1 like to like count and saving movie DB model
+    movieId.like_count--;
+    await movieId.save();
 
     await favoriteMovieId.destroy();
 
@@ -495,6 +527,7 @@ const getFavoriteMovies = async (req: IGetFavoriteMoviesRequest, res: IGetFavori
         movie_minute_length: movie.movie_minute_length,
         image_path: movie.image_path,
         video_path: movie.video_path,
+        like_count: movie.like_count,
       })),
     });
     return;

@@ -89,7 +89,7 @@ Token.belongsTo(User, {
   onDelete: 'CASCADE',
 });
 
-dbConfig.sync({ force: true })
+dbConfig.sync()
     .then(() => {
         ServerGlobal.getInstance().logger.info('MySQL database connection done successfully');
     })

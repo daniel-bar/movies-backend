@@ -12,6 +12,7 @@ interface IAddMovieRequest extends express.Request {
     release_date: number;
     movie_hour_length: number;
     movie_minute_length: number;
+    like_count: number;
   }>;
 }
 
@@ -35,7 +36,7 @@ interface IAddFavoriteMoviesRequest extends IAuthenticatedRequest {
   readonly params: Readonly<{ id: string }>;
 }
 
-interface IDeleteFavoriteMovieRequest extends express.Request {
+interface IDeleteFavoriteMovieRequest extends IAuthenticatedRequest {
   readonly params: Readonly<{ id: string }>;
 }
 
