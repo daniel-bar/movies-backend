@@ -89,7 +89,13 @@ Token.belongsTo(User, {
   onDelete: 'CASCADE',
 });
 
-dbConfig.sync()
+Movie.belongsTo(User, {
+  foreignKey: 'user_id',
+  constraints: true,
+  onDelete: 'CASCADE',
+});
+
+dbConfig.sync({force: true})
     .then(() => {
         ServerGlobal.getInstance().logger.info('MySQL database connection done successfully');
     })

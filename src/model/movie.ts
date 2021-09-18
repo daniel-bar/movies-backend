@@ -67,7 +67,7 @@ const MovieFactory = (sequelize: Sequelize): MovieStatic => {
       type: DataTypes.INTEGER.UNSIGNED,
       allowNull: false,
       defaultValue: 0,
-    }
+    },
   },
   {
     indexes: [{

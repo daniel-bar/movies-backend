@@ -17,22 +17,25 @@ interface IDBMoviesAttributes extends IDBAttribute {
     readonly image_path: string;
     readonly video_path: string;
     like_count: number;
+    readonly user_id: number;
+
 }
 
 interface IDBUserAttributes extends IDBAttribute {
     email: string;
     readonly username: string;
     password: string;
+    like_count: number;
 }
 
 interface IDBFavoriteMoviesAttributes extends IDBAttribute {
-    movie_id: number;
-    user_id: number;
+    readonly movie_id: number;
+    readonly user_id: number;
 }
 
 interface IDBTokenAttributes extends IDBAttribute {
-    token: string;
-    user_id: number;
+    readonly token: string;
+    readonly user_id: number;
 }
 
 export {

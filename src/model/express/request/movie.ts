@@ -4,7 +4,7 @@ import { IAuthenticatedRequest } from "./auth";
 
 import { MovieCategory } from '../../../server-global';
 
-interface IAddMovieRequest extends express.Request {
+interface IAddMovieRequest extends IAuthenticatedRequest {
   readonly body: Readonly<{
     title: string;
     description: string;
@@ -13,6 +13,7 @@ interface IAddMovieRequest extends express.Request {
     movie_hour_length: number;
     movie_minute_length: number;
     like_count: number;
+    user_id: number;
   }>;
 }
 
@@ -28,7 +29,7 @@ interface IGetMovieRequest extends express.Request {
 
 interface IGetCategoriesRequest extends express.Request {}
 
-interface IDeleteMovieRequest extends express.Request {
+interface IDeleteMovieRequest extends IAuthenticatedRequest {
   readonly params: Readonly<{ id: string }>;
 }
 

@@ -4,7 +4,7 @@ import multer from "multer";
 
 import ServerGlobal from "../server-global";
 
-import { Movie, FavoriteMovies } from "../model/shared/index";
+import { Movie, FavoriteMovies, User } from "../model/shared/index";
 
 import {
   IAddMovieRequest,
@@ -106,6 +106,7 @@ const addMovie = async (req: IAddMovieRequest, res: IAddMovieResponse) => {
       like_count: req.body.like_count,
       image_path: url + '/image/' + (req as any).files.image[0].filename,
       video_path: url + '/video/' + (req as any).files.video[0].filename,
+      user_id: +req.user_id!,
     });
 
     // Saving the movie in DB
@@ -256,10 +257,11 @@ const deleteMovie = async (req: IDeleteMovieRequest, res: IDeleteMovieResponse) 
   );
 
   try {
-    // Get movie
-    const movieId = await Movie.findByPk(req.params.id);
+    // Get movie by ID
+    const movieById = await Movie.findByPk(req.params.id);
 
-    if (!movieId) {
+    // Validate movie existence
+    if (!movieById) {
       ServerGlobal.getInstance().logger.error(
         `<deleteMovie>: Failed to find movie with id ${req.params.id}`
       );
@@ -271,7 +273,41 @@ const deleteMovie = async (req: IDeleteMovieRequest, res: IDeleteMovieResponse) 
       return;
     }
 
-    await movieId.destroy();
+    // Checking if user uploaded the video
+    if (movieById.user_id !== +req.user_id!) {
+      ServerGlobal.getInstance().logger.error(
+        `<deleteMovie>: The logged in user with ID: ${req.user_id} is not authorized to delete movie with ID: ${req.params.id}`
+      );
+
+      res.status(401).send({
+        success: false,
+        message: "Not authorized",
+      });
+      return;
+    }
+
+    // Get user by ID
+    const userById = await User.findByPk(movieById.user_id);
+
+    // Validate provided user existence
+    if (!userById) {
+      ServerGlobal.getInstance().logger.error(
+        `<addFavoriteMovie>: Failed to find user with id ${movieById.user_id}`
+      );
+        
+      res.status(400).send({
+        success: false,
+        message: "Could not find user",
+      });
+      return;
+    }
+
+    // Decrement 1 like to user like count and saving user DB model
+    userById.like_count--;
+    await userById.save();
+
+    // Deleting the movie
+    await movieById.destroy();
 
     ServerGlobal.getInstance().logger.info(
       `<deleteMovie>: Successfully deleted movie with ${req.params.id}`
@@ -313,14 +349,14 @@ const addFavoriteMovie = async (req: IAddFavoriteMoviesRequest, res: IAddFavorit
     }
     
     // Get movie by ID
-    const movieId = await Movie.findByPk(req.params.id);
-
+    const movieById = await Movie.findByPk(req.params.id);
+    
     // Validate provided movie ID existence
-    if (!movieId) {
+    if (!movieById) {
       ServerGlobal.getInstance().logger.error(
         `<addFavoriteMovie>: Failed to find movie with id ${req.params.id}`
       );
-
+        
       res.status(400).send({
         success: false,
         message: "Could not find movie",
@@ -328,6 +364,22 @@ const addFavoriteMovie = async (req: IAddFavoriteMoviesRequest, res: IAddFavorit
       return;
     }
 
+    // Get user by ID
+    const userById = await User.findByPk(movieById.user_id);
+
+    // Validate provided user existence
+    if (!userById) {
+      ServerGlobal.getInstance().logger.error(
+        `<addFavoriteMovie>: Failed to find user with id ${movieById.user_id}`
+      );
+        
+      res.status(400).send({
+        success: false,
+        message: "Could not find user",
+      });
+      return;
+    }
+    
     // Finding favorite movie
     const favoriteMovie = await FavoriteMovies.findOne({ where: { user_id: req.user_id, movie_id: req.params.id }});
     
@@ -339,9 +391,13 @@ const addFavoriteMovie = async (req: IAddFavoriteMoviesRequest, res: IAddFavorit
         user_id: +req.user_id,
       });
       
-      // Incrementing 1 like to like count and saving movie DB model
-      movieId.like_count++;
-      await movieId.save();
+      // Incrementing 1 like to movie like count and saving movie DB model
+      movieById.like_count++;
+      await movieById.save();
+
+      // Incrementing 1 like to user like count and saving user DB model
+      userById.like_count++;
+      await userById.save();
 
       // Saving the favorite movie in DB
       await newFavoriteMovie.save();
@@ -401,10 +457,10 @@ const deleteFavoriteMovie = async (req: IDeleteFavoriteMovieRequest, res: IDelet
     }
 
     // Get movie by ID
-    const movieId = await Movie.findByPk(req.params.id);
+    const movieById = await Movie.findByPk(req.params.id);
 
     // Validate provided movie ID existence
-    if (!movieId) {
+    if (!movieById) {
       ServerGlobal.getInstance().logger.error(
         `<addFavoriteMovie>: Failed to find movie with id ${req.params.id}`
       );
@@ -416,9 +472,29 @@ const deleteFavoriteMovie = async (req: IDeleteFavoriteMovieRequest, res: IDelet
       return;
     }
 
-    // Decrement 1 like to like count and saving movie DB model
-    movieId.like_count--;
-    await movieId.save();
+    // Get user by ID
+    const userById = await User.findByPk(movieById.user_id);
+
+    // Validate provided movie ID existence
+    if (!userById) {
+      ServerGlobal.getInstance().logger.error(
+        `<addFavoriteMovie>: Failed to find user with id ${movieById.user_id}`
+      );
+        
+      res.status(400).send({
+        success: false,
+        message: "Could not find user",
+      });
+      return;
+    }
+
+    // Decrement 1 like to movie like count and saving movie DB model
+    movieById.like_count--;
+    await movieById.save();
+
+    // Decrement 1 like to user like count and saving user DB model
+    userById.like_count--;
+    await userById.save();
 
     await favoriteMovieId.destroy();
 

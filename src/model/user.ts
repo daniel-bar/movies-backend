@@ -4,7 +4,7 @@ import { User, Movie, FavoriteMovies } from "./shared/index";
 
 import { IDBUserAttributes } from "./shared/db-table";
 
-interface UserModel extends Model<Optional<IDBUserAttributes, 'id' | 'updatedAt' | 'createdAt'>>, IDBUserAttributes { }
+interface UserModel extends Model<Optional<IDBUserAttributes, 'like_count' | 'id' | 'updatedAt' | 'createdAt'>>, IDBUserAttributes { }
 
 type UserStatic = typeof Model & {
   new (values?: object, options?: BuildOptions): UserModel;
@@ -41,6 +41,11 @@ const UserFactory = (sequelize: Sequelize): UserStatic => {
       validate: {
         min: 7, 
       },
+    },
+    like_count: {
+      type: DataTypes.INTEGER.UNSIGNED,
+      allowNull: false,
+      defaultValue: 0,
     },
   });
 }

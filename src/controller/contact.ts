@@ -79,7 +79,7 @@ becuase provided message is of invalid length`);
         });
         return;
     }
-}
+};
 
 const getTopics = async (req: IGetTopicsRequest, res: IGetTopicsResponse) => {
     ServerGlobal.getInstance().logger.info('<getTopics>: Start processing request');
@@ -92,7 +92,7 @@ const getTopics = async (req: IGetTopicsRequest, res: IGetTopicsResponse) => {
         data: ServerGlobal.getInstance().contactTopics,
     });
     return;
-}
+};
 
 export {
     contact,

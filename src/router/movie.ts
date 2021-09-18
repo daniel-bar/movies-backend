@@ -37,7 +37,7 @@ router.get("/:id", getMovie);
 
 router.delete(
   '/:id',
-  adminAuth,
+  auth,
   deleteMovie,
 );
   
