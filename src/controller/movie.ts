@@ -391,16 +391,20 @@ const addFavoriteMovie = async (req: IAddFavoriteMoviesRequest, res: IAddFavorit
         user_id: +req.user_id,
       });
       
-      // Incrementing 1 like to movie like count and saving movie DB model
-      movieById.like_count++;
-      await movieById.save();
-
-      // Incrementing 1 like to user like count and saving user DB model
-      userById.like_count++;
-      await userById.save();
-
       // Saving the favorite movie in DB
       await newFavoriteMovie.save();
+
+      // Incrementing 1 like to movie like count
+      movieById.like_count++;
+
+      // Saving movie DB model
+      await movieById.save();
+
+      // Incrementing 1 like to user like count
+      userById.like_count++;
+
+      // Saving user DB model
+      await userById.save();
 
       ServerGlobal.getInstance().logger.info(
         `<addFavoriteMovie>: Successfully added favorite movie row with id: ${newFavoriteMovie.id}`

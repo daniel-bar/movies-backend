@@ -23,7 +23,7 @@ const dbConfig = new sequelize.Sequelize(instantiateObj.database, instantiateObj
             acquire: 30000,
             idle: 10000,
         },
-    }
+    },
 );
 
 const User = UserFactory(dbConfig);

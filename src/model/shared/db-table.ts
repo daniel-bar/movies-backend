@@ -1,6 +1,5 @@
 import { MovieCategory } from '../../server-global';
 
-
 interface IDBAttribute {
     readonly id: number;
     readonly createdAt: Date;
