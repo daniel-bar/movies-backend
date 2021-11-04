@@ -4,11 +4,7 @@ import app from './app';
 
 import ServerGlobal from './server-global';
 
-import { dbConfig } from './model/shared';
-import { User, Token, FavoriteMovies, Movie } from './model/shared/index';
-
-
-const debug = Debug('node-angular');
+const debug = Debug('node-react');
 
 const normalizePort = (val: string) => {
     var port = parseInt(val, 10);
@@ -61,46 +57,15 @@ const server = http.createServer(app);
 
 server.on('error', onError);
 server.on('listening', onListening);
-server.listen(port);
 
-Movie.belongsToMany(User, {
-  through: {
-    model: FavoriteMovies,
-    unique: false,
-  },
-  foreignKey: 'movie_id',
-  constraints: true,
-  onDelete: 'CASCADE',
+ServerGlobal.getInstance().db.sync().then(() => {
+    ServerGlobal.getInstance().logger.info('Successfully initiated connection for mysql database');
+
+    server.listen(port);
+
+    ServerGlobal.getInstance().logger.info(`Server is running on port ${port}`);
+}).catch((e) => {
+    ServerGlobal.getInstance().logger.error(`Failed to initiated connection for mysql database with error: ${e}`);
 });
 
-User.belongsToMany(Movie, {
-    through: {
-        model: FavoriteMovies,
-        unique: false,
-    },
-    foreignKey: 'user_id',
-    constraints: true,
-    onDelete: 'CASCADE',
-});
-
-Token.belongsTo(User, {
-  foreignKey: 'user_id',
-  constraints: true,
-  onDelete: 'CASCADE',
-});
-
-Movie.belongsTo(User, {
-  foreignKey: 'user_id',
-  constraints: true,
-  onDelete: 'CASCADE',
-});
-
-dbConfig.sync()
-    .then(() => {
-        ServerGlobal.getInstance().logger.info('MySQL database connection done successfully');
-    })
-    .catch((e) => {
-        ServerGlobal.getInstance().logger.error(`MySQL database connection has failed with error: ${e}`);
-});
-
-ServerGlobal.getInstance().logger.info(`Server is running on port ${process.env.PORT}`);
+import './model/associations';

@@ -1,6 +1,6 @@
 import { IAuthenticatedRequest } from './auth';
 
-import { Topic } from '../../shared/topic';
+import { Topic } from '../../shared/enumerations';
 
 interface IContantRequest extends IAuthenticatedRequest {
     readonly body: Readonly<{

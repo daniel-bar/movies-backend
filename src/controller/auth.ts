@@ -3,8 +3,8 @@ import jwt from "jsonwebtoken";
 
 import ServerGlobal from "../server-global";
 
-import { UserModel } from "../model/user";
-import { User, Token } from '../model/shared/index';
+import User from "../model/user";
+import Token from "../model/token";
 
 import {
   IRegisterRequest,
@@ -236,7 +236,7 @@ const autoLogin = async (req: IAutoLoginRequest, res: IAutoLoginResponse) => {
     readonly exp: number;
   }
 
-  let user: Pick<UserModel, 'email' | 'username'> | null;
+  let user: Pick<User, 'email' | 'username'> | null;
   let user_id: string;
 
   // Authorizing the user

@@ -1,22 +1,13 @@
 import path from 'path';
 import winston from 'winston';
 
-import { Topic } from './model/shared/topic';
+import { Sequelize } from 'sequelize';
 
-export enum MovieCategory {
-    Action = 1,
-    Comedy,
-    Drama,
-    Fantasy,
-    Horror,
-    Mystery,
-    Romance,
-    Thriller,
-    Western,
-};
+import { Topic, MovieCategory } from './model/shared/enumerations';
 
 class ServerGlobal {
     private readonly _logger: winston.Logger;
+    private readonly _db: Sequelize;
     private readonly _movieCategories: ReadonlyArray<{ value: MovieCategory, label: string }>;
     private readonly _contactTopics: ReadonlyArray<{ value: Topic, label: string }>;
 
@@ -37,6 +28,16 @@ class ServerGlobal {
                 }),
             ],
         });
+
+        this._db = new Sequelize(
+            process.env.MYSQL_SCHEMA,
+            process.env.MYSQL_USERNAME,
+            process.env.MYSQL_PASSWORD,
+            {
+                dialect: 'mysql',
+                host: process.env.MYSQL_HOST,
+            },
+        ); 
 
         this._movieCategories = [
             { value: MovieCategory.Action, label: 'Action' },
@@ -140,6 +141,14 @@ class ServerGlobal {
     */
     public get logger() {
         return this._logger;
+    }
+
+    /**
+     * Getter for the db
+     * @returns db instance
+     */
+    public get db() {
+        return this._db;
     }
 }
 

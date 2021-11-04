@@ -3,8 +3,7 @@ import jwt from 'jsonwebtoken';
 
 import ServerGlobal from '../server-global';
 
-import { UserModel } from '../model/user';
-import { User } from '../model/shared/index';
+import User from '../model/user';
 
 import { 
     IAuthMiddlewareRequest,
@@ -26,7 +25,7 @@ const auth = async (req: IAuthMiddlewareRequest, res: IAuthMiddlewareResponse, n
     ServerGlobal.getInstance().logger.info('[auth middleware]: Start processing request');
 
     let data: IVerify;
-    let userDocument: Readonly<Omit<UserModel, 'id'>> | null;
+    let userDocument: Readonly<Omit<User, 'id'>> | null;
     let user_id: string;
 
     try {

@@ -4,7 +4,10 @@ import multer from "multer";
 
 import ServerGlobal from "../server-global";
 
-import { Movie, FavoriteMovies, User } from "../model/shared/index";
+import Movie from '../model/movie';
+import User from '../model/user';
+import FavoriteMovies from '../model/favoriteMovies';
+
 
 import {
   IAddMovieRequest,
@@ -108,9 +111,6 @@ const addMovie = async (req: IAddMovieRequest, res: IAddMovieResponse) => {
       video_path: url + '/video/' + (req as any).files.video[0].filename,
       user_id: +req.user_id!,
     });
-
-    // Saving the movie in DB
-    await newMovie.save();
 
     ServerGlobal.getInstance().logger.info(
       `<addMovie>: Successfully added movie with id: ${newMovie.id}`
@@ -335,6 +335,12 @@ const addFavoriteMovie = async (req: IAddFavoriteMoviesRequest, res: IAddFavorit
   ServerGlobal.getInstance().logger.info("<addFavoriteMovie>: Start processing request");
 
   try {
+    // Get movie by ID and finding favorite movie
+    const [movieById, favoriteMovie] = await Promise.all([
+      Movie.findByPk(req.params.id),
+      FavoriteMovies.findOne({ where: { user_id: req.user_id, movie_id: req.params.id }}),
+    ]);
+
     // Validate provided user ID existence
     if (!req.user_id) {
       ServerGlobal.getInstance().logger.error(
@@ -347,9 +353,6 @@ const addFavoriteMovie = async (req: IAddFavoriteMoviesRequest, res: IAddFavorit
       });
       return;
     }
-    
-    // Get movie by ID
-    const movieById = await Movie.findByPk(req.params.id);
     
     // Validate provided movie ID existence
     if (!movieById) {
@@ -380,9 +383,6 @@ const addFavoriteMovie = async (req: IAddFavoriteMoviesRequest, res: IAddFavorit
       return;
     }
     
-    // Finding favorite movie
-    const favoriteMovie = await FavoriteMovies.findOne({ where: { user_id: req.user_id, movie_id: req.params.id }});
-    
     // Validate provided movie ID and user ID with favorite movies DB table for double prevention
     if (favoriteMovie == null) {
       // Creating the favorite movie
@@ -390,20 +390,13 @@ const addFavoriteMovie = async (req: IAddFavoriteMoviesRequest, res: IAddFavorit
         movie_id: +req.params.id,
         user_id: +req.user_id,
       });
-      
-      // Saving the favorite movie in DB
-      await newFavoriteMovie.save();
 
-      // Incrementing 1 like to movie like count
+      // Incrementing 1 like to movie like count and saving movie DB model
       movieById.like_count++;
-
-      // Saving movie DB model
       await movieById.save();
 
-      // Incrementing 1 like to user like count
+      // Incrementing 1 like to user like count and saving user DB model
       userById.like_count++;
-
-      // Saving user DB model
       await userById.save();
 
       ServerGlobal.getInstance().logger.info(
@@ -415,17 +408,17 @@ const addFavoriteMovie = async (req: IAddFavoriteMoviesRequest, res: IAddFavorit
         message: `Successfully created a new favorite movie row for user ID: ${req.user_id}`,
       });
       return;
-    } else {
-      ServerGlobal.getInstance().logger.error(
-        `<addFavoriteMovie>: Movie with ID: ${req.params.id} is already in favorites for user ID: ${req.user_id}`
-      );
-
-      res.status(400).send({
-        success: false,
-        message: "Movie is already in favorites",
-      });
-      return;
     }
+
+    ServerGlobal.getInstance().logger.error(
+      `<addFavoriteMovie>: Movie with ID: ${req.params.id} is already in favorites for user ID: ${req.user_id}`
+    );
+
+    res.status(400).send({
+      success: false,
+      message: "Movie is already in favorites",
+    });
+    return;
   } catch (e) {
     ServerGlobal.getInstance().logger.error(
       `<addFavoriteMovie>: Failed to add favorite movie because of server error: ${e}`
@@ -445,9 +438,10 @@ const deleteFavoriteMovie = async (req: IDeleteFavoriteMovieRequest, res: IDelet
   );
 
   try {
-    // Get favorite movie
+    // Get favorite movie by ID
     const favoriteMovieId = await FavoriteMovies.findOne({ where: { user_id: req.user_id, movie_id: req.params.id } });
 
+    // Validate provided favorite user ID existence
     if (!favoriteMovieId) {
       ServerGlobal.getInstance().logger.error(
         `<deleteFavoriteMovie>: Failed to find favorite movie with id ${req.params.id}`
@@ -479,7 +473,7 @@ const deleteFavoriteMovie = async (req: IDeleteFavoriteMovieRequest, res: IDelet
     // Get user by ID
     const userById = await User.findByPk(movieById.user_id);
 
-    // Validate provided movie ID existence
+    // Validate provided user ID existence
     if (!userById) {
       ServerGlobal.getInstance().logger.error(
         `<addFavoriteMovie>: Failed to find user with id ${movieById.user_id}`
@@ -500,6 +494,7 @@ const deleteFavoriteMovie = async (req: IDeleteFavoriteMovieRequest, res: IDelet
     userById.like_count--;
     await userById.save();
 
+    // Deleting favorite movie
     await favoriteMovieId.destroy();
 
     ServerGlobal.getInstance().logger.info(
@@ -543,7 +538,7 @@ const getFavoriteMovies = async (req: IGetFavoriteMoviesRequest, res: IGetFavori
     // Get favorite movies
     const favoriteMovies = await FavoriteMovies.findAll({ where: { user_id: req.user_id } });
 
-    if (favoriteMovies.length === 0) {
+    if (!favoriteMovies.length) {
       ServerGlobal.getInstance().logger.error(
         `<getFavoriteMovies>: Failed to find favorite movies for user with id ${req.user_id}`
         );
@@ -560,20 +555,7 @@ const getFavoriteMovies = async (req: IGetFavoriteMoviesRequest, res: IGetFavori
     // Get favorite movie id's
     const favoriteMovieIds = favoriteMovies.map((movie) => movie.movie_id);
 
-    if (favoriteMovieIds.length === 0) {
-      ServerGlobal.getInstance().logger.error(
-        `<getFavoriteMovies>: Failed to find favorite movie id's for user with id ${req.user_id}`
-        );
-        
-        res.status(400).send({
-          success: false,
-          message: "Could not find favorite movie id's",
-        });
-        return;
-    }
-
-    ServerGlobal.getInstance().logger.info(`<getFavoriteMovies>: Got favorite movie id's`);
-
+    // Get movies by id's
     const movies = await Movie.findAll({ where: { id: favoriteMovieIds }});
 
     if (!movies) {

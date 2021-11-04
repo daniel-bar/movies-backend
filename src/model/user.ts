@@ -1,56 +1,71 @@
-import { BuildOptions, DataTypes, Model, Optional, Sequelize } from "sequelize";
+import Sequelize, { Optional } from "sequelize";
+import ServerGlobal from "../server-global";
 
-import { User, Movie, FavoriteMovies } from "./shared/index";
+import IDBAttribute from "./shared/db-table";
 
-import { IDBUserAttributes } from "./shared/db-table";
-
-interface UserModel extends Model<Optional<IDBUserAttributes, 'like_count' | 'id' | 'updatedAt' | 'createdAt'>>, IDBUserAttributes { }
-
-type UserStatic = typeof Model & {
-  new (values?: object, options?: BuildOptions): UserModel;
-};
-
-const UserFactory = (sequelize: Sequelize): UserStatic => {
-  return <UserStatic>sequelize.define("users", {
-    id: {
-      type: DataTypes.INTEGER.UNSIGNED,
-      autoIncrement: true,
-      primaryKey: true,
-      allowNull: false,
-      unique: true,
-    },
-    email: {
-      type: DataTypes.STRING,
-      allowNull: false,
-      unique: true,
-      validate: {
-        isEmail: true,
-        len: [3, 320],
-      },
-    },
-    username: {
-      type: DataTypes.STRING,
-      allowNull: false,
-      validate: {
-        len: [3, 26],
-      },
-    },
-    password: {
-      type: DataTypes.STRING,
-      allowNull: false,
-      validate: {
-        min: 7, 
-      },
-    },
-    like_count: {
-      type: DataTypes.INTEGER.UNSIGNED,
-      allowNull: false,
-      defaultValue: 0,
-    },
-  });
+interface IUserAttributes extends IDBAttribute {
+    email: string;
+    readonly username: string;
+    password: string;
+    like_count: number;
+}
+class User extends Sequelize.Model<Optional<IUserAttributes, 'id' | 'createdAt' |'updatedAt' | 'like_count'>> implements IUserAttributes {
+  public id!: number;
+  public email!: string;
+  public username!: string;
+  public password!: string;
+  public like_count!: number;
+  public readonly createdAt!: Date;
+  public readonly updatedAt!: Date;
 }
 
-export { 
-  UserFactory,
-  UserModel, 
-}
+User.init({
+  id: {
+    type: Sequelize.INTEGER.UNSIGNED,
+    autoIncrement: true,
+    primaryKey: true,
+    allowNull: false,
+    unique: true,
+  },
+  email: {
+    type: Sequelize.STRING,
+    allowNull: false,
+    unique: true,
+    validate: {
+      isEmail: true,
+      len: [3, 320],
+    },
+  },
+  username: {
+    type: Sequelize.STRING,
+    allowNull: false,
+    validate: {
+      len: [3, 26],
+    },
+  },
+  password: {
+    type: Sequelize.STRING,
+    allowNull: false,
+    validate: {
+      min: 7, 
+    },
+  },
+  like_count: {
+    type: Sequelize.INTEGER.UNSIGNED,
+    allowNull: false,
+    defaultValue: 0,
+  },
+  createdAt: Sequelize.DATE,
+  updatedAt: Sequelize.DATE,
+}, {
+  tableName: 'movies',
+  sequelize: ServerGlobal.getInstance().db,
+  indexes: [{
+    fields: ['title'],
+  },
+  {
+    fields: ['category'],
+  }],
+});
+
+export default User;

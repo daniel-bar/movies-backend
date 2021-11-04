@@ -2,7 +2,7 @@ import express from 'express';
 
 import { IServerResponse } from '../../shared/response';
 
-import { Topic } from '../../shared/topic';
+import { Topic } from '../../shared/enumerations';
 
 type IContantResponse = express.Response<IServerResponse>;
 

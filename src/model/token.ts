@@ -1,33 +1,46 @@
-import { BuildOptions, DataTypes, Model, Optional, Sequelize } from "sequelize";
+import Sequelize, { Optional } from "sequelize";
+import ServerGlobal from "../server-global";
 
-import { IDBTokenAttributes } from "./shared/db-table";
+import IDBAttribute from "./shared/db-table";
 
-interface TokenModel extends Model<Optional<IDBTokenAttributes, 'id' | 'updatedAt' | 'createdAt'>>, IDBTokenAttributes { }
-
-type TokenStatic = typeof Model & {
-  new (values?: object, options?: BuildOptions): TokenModel;
-};
-
-const TokenFactory = (sequelize: Sequelize): TokenStatic => {
-  return <TokenStatic>sequelize.define("tokens", {
-    id: {
-      type: DataTypes.INTEGER.UNSIGNED,
-      autoIncrement: true,
-      primaryKey: true,
-      allowNull: false,
-      unique: true,
-    },
-    token: {
-      type: DataTypes.STRING,
-      allowNull: false,
-      unique: true,
-    },
-  },
-  {
-    indexes: [{
-      fields: ['user_id'],
-    }],
-  });
+interface ITokenAttributes extends IDBAttribute {
+    readonly token: string;
+    readonly user_id: number;
 }
 
-export { TokenFactory }
+class Token extends Sequelize.Model<Optional<ITokenAttributes, 'id' | 'createdAt' | 'updatedAt'>> implements ITokenAttributes {
+  public id!: number;
+  public token!: string;
+  public user_id!: number;
+  public readonly createdAt!: Date;
+  public readonly updatedAt!: Date;
+}
+
+Token.init({
+  id: {
+    type: Sequelize.INTEGER.UNSIGNED,
+    autoIncrement: true,
+    primaryKey: true,
+    allowNull: false,
+    unique: true,
+  },
+  token: {
+    type: Sequelize.STRING,
+    allowNull: false,
+    unique: true,
+  },
+  user_id: {
+    type: Sequelize.INTEGER.UNSIGNED,
+    allowNull: false,
+  },
+  createdAt: Sequelize.DATE,
+  updatedAt: Sequelize.DATE,
+}, {
+  tableName: 'tokens',
+  sequelize: ServerGlobal.getInstance().db,
+  indexes: [{
+    fields: ['user_id'],
+  }],
+});
+
+export default Token;
