@@ -12,6 +12,7 @@ import {
 } from '../model/express/response/contact';
 
 const contact = async (req: IContantRequest, res: IContantResponse) => {
+    console.log(req.body)
     ServerGlobal.getInstance().logger.info(
         `<contant>: Start processing request with user id: ${req.user_id}`
     );

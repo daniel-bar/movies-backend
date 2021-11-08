@@ -3,12 +3,12 @@ import winston from 'winston';
 
 import { Sequelize } from 'sequelize';
 
-import { Topic, MovieCategory } from './model/shared/enumerations';
+import { Topic, Category } from './model/shared/enumerations';
 
 class ServerGlobal {
     private readonly _logger: winston.Logger;
     private readonly _db: Sequelize;
-    private readonly _movieCategories: ReadonlyArray<{ value: MovieCategory, label: string }>;
+    private readonly _movieCategories: ReadonlyArray<{ value: Category, label: string }>;
     private readonly _contactTopics: ReadonlyArray<{ value: Topic, label: string }>;
 
     private static _instance: ServerGlobal;
@@ -40,18 +40,20 @@ class ServerGlobal {
         ); 
 
         this._movieCategories = [
-            { value: MovieCategory.Action, label: 'Action' },
-            { value: MovieCategory.Comedy, label: 'Comedy' },
-            { value: MovieCategory.Drama, label: 'Drama' },
-            { value: MovieCategory.Fantasy, label: 'Fantasy' },
-            { value: MovieCategory.Horror, label: 'Horror' },
-            { value: MovieCategory.Mystery, label: 'Mystery' },
-            { value: MovieCategory.Romance, label: 'Romance' },
-            { value: MovieCategory.Thriller, label: 'Thriller' },
-            { value: MovieCategory.Western, label: 'Western' },
+            { value: Category.Other, label: 'Other' },
+            { value: Category.Action, label: 'Action' },
+            { value: Category.Comedy, label: 'Comedy' },
+            { value: Category.Drama, label: 'Drama' },
+            { value: Category.Fantasy, label: 'Fantasy' },
+            { value: Category.Horror, label: 'Horror' },
+            { value: Category.Mystery, label: 'Mystery' },
+            { value: Category.Romance, label: 'Romance' },
+            { value: Category.Thriller, label: 'Thriller' },
+            { value: Category.Western, label: 'Western' },
         ];
 
         this._contactTopics = [
+            { value: Topic.Other, label: 'Other' },
             { value: Topic.Delivery, label: 'Delivery' },
             { value: Topic.OrderIssues, label: 'Order Issues' },
             { value: Topic.ReturnsAndRefunds, label: 'Returns and Refunds' },
@@ -85,7 +87,7 @@ class ServerGlobal {
     * @returns product movies values array
     */
     public get movieCategoriesValues() {
-        return this._movieCategories.map((movieCategory) => movieCategory.value);
+        return this._movieCategories.map((Category) => Category.value);
     }
 
     /**
@@ -93,8 +95,8 @@ class ServerGlobal {
     * @param value value of category
     * @returns label string
     */
-    public getCategoryLabel(value: MovieCategory) {
-        const matcingCategory = this._movieCategories.find((movieCategory) => movieCategory.value === value);
+    public getCategoryLabel(value: Category) {
+        const matcingCategory = this._movieCategories.find((Category) => Category.value === value);
 
         if (!matcingCategory) {
             return null;
@@ -108,8 +110,8 @@ class ServerGlobal {
     * @param value category value
     * @returns boolean flag indicates whether the category is valid
     */
-    public isValidCategoryValue(value: MovieCategory) {
-        return !!this._movieCategories.find((movieCategory) => movieCategory.value === value);
+    public isValidCategoryValue(value: Category) {
+        return !!this._movieCategories.find((Category) => Category.value === value);
     }
 
     /**

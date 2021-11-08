@@ -1,12 +1,14 @@
 export enum Topic {
+    Other = 1,
     Delivery,
-    ReturnsAndRefunds,
     OrderIssues,
+    ReturnsAndRefunds,
     Technical,
 };
 
-export enum MovieCategory {
-    Action = 1,
+export enum Category {
+    Other = 1,
+    Action,
     Comedy,
     Drama,
     Fantasy,

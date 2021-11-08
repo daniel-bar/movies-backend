@@ -12,7 +12,6 @@ const router = express.Router();
 
 router.post(
     '/',
-    auth,
     bodyKeys([
         { key: 'topic', type: 'number' },
         { key: 'message', type: 'string' },

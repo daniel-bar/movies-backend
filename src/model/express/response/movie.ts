@@ -2,7 +2,7 @@ import express from 'express';
 
 import { IServerResponse } from '../../shared/response';
 
-import { MovieCategory } from '../../../server-global';
+import { Category } from '../../../model/shared/enumerations';
 
 type IAddMovieResponse = express.Response<IServerResponse>;
 
@@ -12,7 +12,7 @@ type IGetMoviesResponse = express.Response<
             id: number;
             title: string;
             description: string;
-            category: MovieCategory;
+            category: Category;
             release_date: number;
             movie_hour_length: number;
             movie_minute_length: number;
@@ -29,7 +29,7 @@ type IGetMovieResponse = express.Response<
             id: number;
             title: string;
             description: string;
-            category: MovieCategory;
+            category: Category;
             release_date: number;
             movie_hour_length: number;
             movie_minute_length: number;
@@ -45,7 +45,7 @@ type IDeleteMovieResponse = express.Response<IServerResponse>;
 type IGetCategoriesResponse = express.Response<
     IServerResponse & {
         data?: {
-            value: MovieCategory
+            value: Category
         }[];
     }
 >;
@@ -60,7 +60,7 @@ type IGetFavoriteMoviesResponse = express.Response<
             id: number;
             title: string;
             description: string;
-            category: MovieCategory;
+            category: Category;
             release_date: number;
             movie_hour_length: number;
             movie_minute_length: number;
